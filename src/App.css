@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+.body{
+  font-family: 'Roboto Condensed' sans-serif;
+}
+
+
+
+.fa-code{
+  color: aqua;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+nav a.nav-link{
+font-weight: 500;
+letter-spacing: 0.0375rem;
+cursor: pointer;
+}
+.fa{
+  width: 16.25rem;
+}
 .App {
   text-align: center;
 }
