@@ -9,14 +9,23 @@
 nav ul li{
   text-transform: uppercase;
 }
+.navbar-nav > li >a.active, .navbar-nav > li >a:focus{
+  border-top: 0.1875rem solid orange;
+
+}
 .navbar-nav > li >a{
   color: white !important;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  border-top: 0.1875rem solid rgb(255,255,255);
+
 }
-navbar-brand{
+.navbar-brand{
   padding: 0;
   
+}
+.navbar-nav > li >a:hover{
+  border-top: 0.1875rem solid orange;
 }
 
 nav a.nav-link{
