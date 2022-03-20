@@ -91,3 +91,47 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
 }
+
+/**Header*/
+
+.header-wrapper {
+  position: relative;
+  background: url(./components/bridge_purple.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 20vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: white;
+}
+
+/**About*/
+.about{
+	background-color:#00FFFF;
+	margin:auto;
+	text-align:center;
+}
+
+.education{
+	background-color:#87CEFA;
+	margin:auto;
+	text-align:center;
+	
+}

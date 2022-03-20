@@ -3,6 +3,8 @@ import Me from "./subbu.jpg";
 
 const About=() =>{
     return(
+		<div>
+			<section className="about py-5" id="about">
         <div className="container-fluid py-5">
 		    <div className="row ">
 			    <div className="col-lg-5 col-md-6">
@@ -23,6 +25,8 @@ I also actively interact with the open source community, contributing to it and 
 I'm constantly open to new ideas and always look to reach out to others, share and discuss ideas with them, thereby learn and also help others grow too..</p>
                 </div>
 			</div>
+		</div>
+		</section>
 		</div>
     )
 
