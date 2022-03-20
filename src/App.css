@@ -133,4 +133,9 @@ cursor: pointer;
 	margin:auto;
 	text-align:center;
 	
+}.project{
+	background-color:#4169E1;
+	margin:auto;
+	text-align:center;
+	width: 100%;
 }
