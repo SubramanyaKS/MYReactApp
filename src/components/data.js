@@ -1,19 +1,20 @@
+
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Bus Reservation System",
+      subtitle: "A Dbms mini-project",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "This Project is the DBMS mini-project and desktop application where we can reserve the bus seat,check the seat availability and view the seat arrangement do the payment after seat reservation.",
+      image: "./bus.jpg",
+      link: "https://github.com/SubramanyaKS/busreservation",
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Diabeties Prediction System.",
+      subtitle: "Machine-learning project using regression model.",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
+        "In this project we determine the diabetes by building various machine learning model using ‘diabetes.csv’ dataset.",
+      image: "./heart.jpg",
+      link: "https://github.com/SubramanyaKS/Diabetes_prediction",
     },
     {
       title: "DevChat",
