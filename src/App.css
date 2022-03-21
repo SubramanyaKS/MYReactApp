@@ -127,6 +127,13 @@ cursor: pointer;
 	margin:auto;
 	text-align:center;
 }
+.experience{
+	background-color:#4eeb1f;
+	margin:0;
+	text-align:center;
+	width: 100%;
+	height: 100%;
+}
 
 .education{
 	background-color:#87CEFA;

@@ -9,7 +9,7 @@ const  Project1 = ()=>{
     return ( 
         <div>
             <section className="project py-5" id="project">
-        <div className="container-fluid ">
+                <div className="container-fluid ">
             <h2 className="text-center"> &nbsp; My Project.</h2><br />
             <div className="row row-cols-1 row-cols-md-2 row-eq-height">
             <div className="col mb-4  d-flex align-items-stretch">
