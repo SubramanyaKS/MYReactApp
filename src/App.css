@@ -139,3 +139,43 @@ cursor: pointer;
 	text-align:center;
 	width: 100%;
 }
+/**Contact*/
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+  text-align:center;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.linkedin {
+  color: #49a1eb;
+}
+a.github{
+  color:#282c34;
+
+}
+a.gmail{
+  color:#eb3223;
+}
+a.hackerrank{
+  color:black;
+}
