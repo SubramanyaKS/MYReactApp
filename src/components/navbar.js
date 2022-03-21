@@ -1,11 +1,12 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css'; 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 const Navbar = ()=>{
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-      <div className="container">
+        <div className="container">
         <a className="navbar-brand" href="#"><i className="fa fa-code"></i></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <FontAwesomeIcon icons={faBars} style={{color: "#fff"}}/>
@@ -14,22 +15,22 @@ const Navbar = ()=>{
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <NavLink activeClassName="nav_link" to="/header">Home</NavLink>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">About</a>
+      <NavLink activeClassName="nav_link" to="/about">About</NavLink>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Education</a>
+        <NavLink activeClassName="nav_link"to="/education">Education</NavLink>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Experience</a>
+        <NavLink activeClassName="nav_link" to="/experience">Experience</NavLink>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Project</a>
+        <NavLink activeClassName="nav_link" to="/project">Project</NavLink>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
+        <NavLink activeClassName="nav_link" to="/contact">Contact</NavLink>
       </li>
       
     </ul>
@@ -40,5 +41,5 @@ const Navbar = ()=>{
     )
 }
 
-export default Navbar
+export default Navbar;
 
