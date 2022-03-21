@@ -174,12 +174,14 @@ padding-right: 0;
 }
 
 .education{
-	background-color:#87CEFA;
+	background:url(./components/bg3.jpg)no-repeat;
+  background-size: cover;
 	margin:auto;
 	text-align:center;
 	
 }.project{
-	background-color:#4169E1;
+	background:url(./components/bg3.jpg)no-repeat;
+  background-size: cover;
 	margin:auto;
 	text-align:center;
 	width: 100%;
