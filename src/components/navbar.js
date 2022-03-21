@@ -15,22 +15,23 @@ const Navbar = ()=>{
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto">
       <li className="nav-item active">
-        <NavLink activeClassName="nav_link" to="/header">Home</NavLink>
+        <NavLink activeClassName="nav_link" to="/">Home</NavLink>
+      </li>
+      {({isActive}) => (isActive ? "nav_link" : 'none')}
+      <li className="nav-item">
+      <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')} to="/about">About</NavLink>
       </li>
       <li className="nav-item">
-      <NavLink activeClassName="nav_link" to="/about">About</NavLink>
+        <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')}to="/education">Education</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink activeClassName="nav_link"to="/education">Education</NavLink>
+        <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')} to="/experience">Experience</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink activeClassName="nav_link" to="/experience">Experience</NavLink>
+        <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')} to="/project">Project</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink activeClassName="nav_link" to="/project">Project</NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink activeClassName="nav_link" to="/contact">Contact</NavLink>
+        <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')} to="/contact">Contact</NavLink>
       </li>
       
     </ul>
