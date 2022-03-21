@@ -10,7 +10,7 @@ const  Project1 = ()=>{
         <div>
             <section className="project py-5" id="project">
                 <div className="container-fluid ">
-            <h2 className="text-center"> &nbsp; My Project.</h2><br />
+            <h2 className="text-center"> &nbsp; My Project.</h2><br /><br></br>
             <div className="row row-cols-1 row-cols-md-2 row-eq-height">
             <div className="col mb-4  d-flex align-items-stretch">
                 <div className="card">
@@ -83,7 +83,7 @@ const  Project1 = ()=>{
         </div>
         </section>
     </div>
-    )
+    );
 }
 
-export default Project1
+export default Project1;
