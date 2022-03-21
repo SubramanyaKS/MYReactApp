@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 .body{
   font-family: 'Roboto Condensed' sans-serif;
+  
 }
 .html,.body{
   width:100%;
@@ -8,6 +9,7 @@
   margin:0;
   padding:0;
   overflow-x:hidden;
+  
 margin-bottom: 0;
 margin-right: 0rem;
 }
@@ -103,12 +105,15 @@ cursor: pointer;
 
 /**Header*/
 .main{
-	background:url(./components/bg2.jpg)no-repeat;
+	background:url(./components/bg3.jpg)no-repeat;
   background-size: cover;
   background-position: center;
 	text-align: center;
   width: 100%;
   height: 100%;
+}
+.main h1{
+  color: rgb(239, 255, 22);
 }
 #container-fluid {
   height: auto;
@@ -151,12 +156,17 @@ padding-right: 0;
 
 /**About*/
 .about{
-	background-color:#00FFFF;
+	background:url(./components/bg3.jpg)no-repeat;
+  background-size: cover;
 	margin:auto;
 	text-align:center;
 }
+.about p, h2{
+  color: rgb(242, 245, 248);
+}
 .experience{
-	background-color:#4eeb1f;
+	background:url(./components/bg3.jpg)no-repeat;
+  background-size: cover;
 	margin:0;
 	text-align:center;
 	width: 100%;
