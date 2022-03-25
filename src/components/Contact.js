@@ -4,7 +4,9 @@ import {faGithub, faYoutube, faTwitter, faFacebook,faHackerrank,faLinkedin,faGoo
 const Contact = () => {
     return(
         <div className="social-container">
-            <h3>Follow me</h3>
+            <h3>Let's connect</h3>
+
+            <br></br>
             <a href="https://www.linkedin.com/in/subramanya-k-s-b74a92204/" className="linkedin social"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
             <a href="https://github.com/SubramanyaKS" className="github social" ><FontAwesomeIcon icon={faGithub} size="2x"/></a>
 			<a href="https://www.hackerrank.com/subramanyaks2205" className ="hackerrank"><FontAwesomeIcon icon={faHackerrank} size="2x"/></a>
