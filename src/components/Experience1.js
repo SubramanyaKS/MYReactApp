@@ -12,8 +12,8 @@ export default function Experience1() {
     <br /><br /><br />
     <div className="row row-cols-1 row-cols-md-2">
       <div className="col sm-6  d-flex align-items-stretch">
-      <Card style={{ width: "22rem" }}>
-      <Card.Img variant="top" src="./images/ekathva.jpg" />
+      <Card style={{ width: "25rem" }}>
+      <Card.Img variant="top" src="./images/ekatvaI.jpg" />
         <Card.Body>
           <Card.Title style={{ color: "green" }}>Web Development Intern.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -27,8 +27,8 @@ export default function Experience1() {
       </Card>
     </div>
     <div className="col sm-6  d-flex align-items-stretch">
-      <Card style={{ width: "22rem" }}>
-      <Card.Img variant="top" src="./images/sparks.jpg" />
+      <Card style={{ width: "25rem" }}>
+      <Card.Img variant="top" src="./images/Thesparks.jpg" />
         <Card.Body>
           <Card.Title style={{ color: "green" }}>Web Development and Design Intern.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">

@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Header from './components/Header';
-import Project1 from './components/Project1';
+import Project1 from './components/Project';
 import Education from './components/Education';
 import Experience1 from './components/Experience1';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";

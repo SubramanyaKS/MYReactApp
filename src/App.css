@@ -211,7 +211,7 @@ padding-right: 0;
 /**Contact*/
 
 .social-container {
-  background: #eee;
+  background: #800000;
   padding: 25px 50px;
   text-align:center;
 }
@@ -251,6 +251,6 @@ a.gmail{
 a.hackerrank{
   color:black;
 }
-h3{
+.contact h3{
   color: black;
 }
