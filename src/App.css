@@ -201,7 +201,8 @@ padding-right: 0;
 	text-align:center;
   align-items: center;
 	
-}.project{
+}
+.project{
 	background:url(./components/bg3.jpg)no-repeat;
   background-size: cover;
 	margin:auto;
@@ -253,4 +254,17 @@ a.hackerrank{
 }
 .contact h3{
   color: black;
+}
+.skills{
+	background:url(./components/bg3.jpg)no-repeat;
+  background-size: cover;
+	margin:auto;
+	text-align:center;
+	width: 100%;
+}
+.card-example::-webkit-scrollbar {
+  display: none;
+}
+.skills .card{
+  background-color: #800000;
 }
