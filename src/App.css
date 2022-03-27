@@ -264,7 +264,12 @@ a.hackerrank{
 }
 .card-example::-webkit-scrollbar {
   display: none;
+  align-items: center;
 }
 .skills .card{
   background-color: #800000;
+  align-items: center;
+}
+.skills h4{
+  color: azure;
 }
