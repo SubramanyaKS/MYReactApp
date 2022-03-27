@@ -6,6 +6,7 @@ import About from './components/About';
 import Header from './components/Header';
 import Project1 from './components/Project';
 import Education from './components/Education';
+import Skills from './components/Skills';
 import Experience1 from './components/Experience1';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import Contact from './components/Contact';
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/education" element={<Education/>}/>
       <Route exact path="/experience" element={<Experience1/>}/>
       <Route exact path="/project" element={<Project1/>}/>
+      <Route exact path="/skills" element={<Skills/>}/>
       <Route exact path="/contact" element={<Contact/>}/>
     </Routes>
     </Router>

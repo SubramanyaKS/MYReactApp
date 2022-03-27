@@ -31,6 +31,9 @@ const Navbar = ()=>{
         <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')} to="/project">Project</NavLink>
       </li>
       <li className="nav-item">
+        <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')} to="/skills">Skills</NavLink>
+      </li>
+      <li className="nav-item">
         <NavLink ClassName={({isActive}) => (isActive ? "nav_link" : 'none')} to="/contact">Contact</NavLink>
       </li>
       
