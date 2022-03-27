@@ -8,6 +8,7 @@ export default function Skills() {
         <section className="skills py-5">
             <Container fluid className="App py-2 overflow-hidden">
                 <Row className="justify-content-center"><h2>Skills</h2></Row>
+                <br></br>
                 <h4> Web Development </h4>
                 <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
                             <Card style={{ width: "6rem" }}>
@@ -72,6 +73,39 @@ export default function Skills() {
                             <Card style={{ width: "6rem" }}>
                                 <Card.Body>
                                 <Card.Img  src="./images/django.png" />
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: "6rem" }}>
+                                <Card.Body>
+                                <Card.Img  src="./images/bootstrap.png" />
+                                </Card.Body>
+                            </Card>
+                </Row>
+                <h4>Tools</h4>
+                <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
+                <Card style={{ width: "6rem" }}>
+                                <Card.Body>
+                                <Card.Img  src="./images/git.png" />
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: "6rem" }}>
+                                <Card.Body>
+                                <Card.Img  src="./images/android.png" />
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: "6rem" }}>
+                                <Card.Body>
+                                <Card.Img  src="./images/jupyter.png" />
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: "6rem" }}>
+                                <Card.Body>
+                                <Card.Img  src="./images/vscode.png" />
+                                </Card.Body>
+                            </Card>
+                            <Card style={{ width: "6rem" }}>
+                                <Card.Body>
+                                <Card.Img  src="./images/eclipse.png" />
                                 </Card.Body>
                             </Card>
                 </Row>
