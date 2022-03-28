@@ -17,7 +17,7 @@ const Contact = () => {
       };
     return(
       <div className="social-container">
-          <h4>Contact</h4>
+          <h3>Contact</h3>
       <div className="container">
       <form onSubmit={sendEmail}>
               <div className="row pt-5 mx-auto">
