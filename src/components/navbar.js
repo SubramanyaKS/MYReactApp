@@ -1,11 +1,13 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
-import 'font-awesome/css/font-awesome.min.css'; 
+import 'font-awesome/css/font-awesome.min.css';
+import {BrowserRouter, Link} from "react-router-dom"; 
+import {useState, useEffect} from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars,faCode} from '@fortawesome/free-solid-svg-icons';
 const Navbar = ()=>{
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+
+       /**  <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <div className="container">
         <a className="navbar-brand" href="/"><FontAwesomeIcon icons={faCode} style={{color: "#fff"}} /></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +43,47 @@ const Navbar = ()=>{
     
   </div>
   </div>
-</nav>
+</nav>*/
+
+const [toggleMenu, setToggleMenu] = useState(false)
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+
+  const toggleNav = () => {
+    setToggleMenu(!toggleMenu)
+  }
+
+  useEffect(() => {
+
+    const changeWidth = () => {
+      setScreenWidth(window.innerWidth);
+    }
+
+    window.addEventListener('resize', changeWidth)
+
+    return () => {
+        window.removeEventListener('resize', changeWidth)
+    }
+
+  }, [])
+
+  return (
+    <nav>
+      {(toggleMenu || screenWidth > 500) && (
+      <ul className="list ms-auto">
+      <li className="items"><Link to='/'>Home</Link></li>
+      <li className="items">About</li>
+      <li className="items">Education</li>
+      <li className="items">Experience</li>
+      <li className="items">Skills</li>
+      <li className="items">Projects</li>
+      <li className="items">Contact</li>
+    </ul>
+      )}
+
+      <button onClick={toggleNav} className="btn"><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></button>
+    </nav>
+
     );
 }
 

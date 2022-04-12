@@ -17,6 +17,64 @@ margin-right: 0rem;
 .fa-code{
   color: aqua;
 }
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(45deg, rgb(104, 2, 2), rgb(250, 2, 2));
+}
+
+.list {
+  list-style-type: none;
+  background: linear-gradient(45deg, rgb(121, 4, 4), rgb(243, 33, 6));
+  height: 50%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  position: relative;
+}
+.items {
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  padding: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .list {
+      flex-direction: column;
+      height: auto;
+  }
+  .items:nth-child(1){
+      border-top: 1px solid rgba(89, 6, 245, 0.555);
+      margin-top: 50px;
+  }
+  .items {
+      width: 100%;
+      border-top: 1px solid rgba(21, 5, 252, 0.555);
+      text-align: center;
+      margin-right: 0px;
+      padding: 10px 0;
+  }
+  .btn {
+      display: block;
+  }
+
+}
 nav ul li{
   text-transform: uppercase;
 }
