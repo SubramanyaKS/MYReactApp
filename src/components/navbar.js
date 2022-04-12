@@ -69,15 +69,15 @@ const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
     <nav>
-      {(toggleMenu || screenWidth > 500) && (
+      {(toggleMenu || screenWidth > 768) && (
       <ul className="list ms-auto">
-      <li className="items"><Link to='/'>Home</Link></li>
-      <li className="items">About</li>
-      <li className="items">Education</li>
-      <li className="items">Experience</li>
-      <li className="items">Skills</li>
-      <li className="items">Projects</li>
-      <li className="items">Contact</li>
+      <li className="items"><Link to='/' style={{ textDecoration: 'none' }}>Home</Link></li>
+      <li className="items"><Link to='/about' style={{ textDecoration: 'none' }}>About</Link></li>
+      <li className="items"><Link to='/education' style={{ textDecoration: 'none' }}>Education</Link></li>
+      <li className="items"><Link to='/experience' style={{ textDecoration: 'none' }}>Experience</Link></li>
+      <li className="items"><Link to='/skills' style={{ textDecoration: 'none' }}>Skills</Link></li>
+      <li className="items"><Link to='/project' style={{ textDecoration: 'none' }}>Projects</Link></li>
+      <li className="items"><Link to='/contact' style={{ textDecoration: 'none' }}>Contact</Link></li>
     </ul>
       )}
 
