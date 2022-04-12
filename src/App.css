@@ -176,7 +176,7 @@ padding-right: 0;
   color: rgb(242, 245, 248);
 }
 .card{
-	background-color:#18fafa;
+	background-color:#e91505 !important;
 	margin-bottom:10px;
 	margin-left:10px;
 	border-radius:0;
@@ -186,7 +186,7 @@ padding-right: 0;
 	-moz-transition:all 0.3s ease-in;
 }
 .card:hover{
-	background-color:#800080;
+	background-color:#800000 !important;
 	transition:0.5s;
 	
 	color:#00FFFF;
@@ -212,7 +212,8 @@ padding-right: 0;
 /**Contact*/
 
 .social-container {
-  background: #800000;
+  background: url(./components/bg3.jpg)no-repeat;
+  background-size: cover;
   padding: 25px 50px;
   text-align:center;
   width: 100%;
@@ -246,7 +247,7 @@ a.linkedin {
   color: #49a1eb;
 }
 a.github{
-  color:#282c34;
+  color:#121213;
 
 }
 a.gmail{
