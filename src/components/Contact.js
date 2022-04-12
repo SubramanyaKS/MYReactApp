@@ -16,6 +16,7 @@ const Contact = () => {
           e.target.reset()
       };
     return(
+        <section className="social-container" id="contact">
       <div className="social-container">
           <h3>Contact</h3>
       <div className="container">
@@ -51,6 +52,7 @@ const Contact = () => {
 			<a href="https://www.facebook.com/profile.php?id=100070944345090"className="facebook social"><FontAwesomeIcon icon={faFacebook} size="2x"/></a>
             <a href="mailto:subramanyaks2205@gmail.com"className="gmail social"><FontAwesomeIcon icon={faGoogle} size="2x"/></a>
         </div>
+        </section>
     );
 }
 export default Contact;
