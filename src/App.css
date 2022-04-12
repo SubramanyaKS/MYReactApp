@@ -24,6 +24,9 @@ nav {
   height: 50px;
   background: linear-gradient(45deg, rgb(104, 2, 2), rgb(250, 2, 2));
 }
+a {
+  color: #FFF;
+}
 
 .list {
   list-style-type: none;
