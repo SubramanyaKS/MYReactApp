@@ -9,7 +9,7 @@ export default function Experience1() {
     <section className="experience py-5" id="experience">
   <div className="container-fluid">
     <center> <h2> &nbsp; Experience.</h2></center>
-    <br /><br /><br />
+    <br /><br /><br /><br></br><br></br>
     <div className="row row-cols-1 row-cols-md-2">
       <div className="col sm-6  d-flex align-items-stretch">
       <Card style={{ width: "25rem" }}>
