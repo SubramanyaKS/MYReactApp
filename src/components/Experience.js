@@ -7,9 +7,11 @@ const Experience = () => {
     return(
         <section className="experience py-5" id="experience">
   <div className="container-fluid">
+    <br></br><br></br>
     <center> <h2> &nbsp; Experience.</h2></center>
     <br /><br /><br />
     <div className="row row-cols-1 row-cols-md-2">
+      <br></br><br></br><br></br>
       <div className="col sm-6  d-flex align-items-stretch">
         <div className="card">
           <img src="./images/ekathva.jpg" className="card-img-top" alt="..." />
@@ -30,10 +32,14 @@ const Experience = () => {
             <p>My First Internship helped me to gain some knowledge on web development. Worked on the project title "Basic Banking System" which is demonstrate the basic banking operation.</p>
             <div className="social-buttons mt-5"><a href="https://github.com/SubramanyaKS/Task1-BasicBankingSystem"> <button className="neo-button"><FontAwesomeIcon icon={faGithub} style={{fontSize: '24px'}}/> </button></a></div>					
           </div>
+          <br></br>
         </div>
       </div>
+      <br></br>
     </div>
-  </div></section>
+    
+  </div>
+  </section>
     )
 }
 export default Experience
