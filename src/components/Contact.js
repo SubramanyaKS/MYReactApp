@@ -2,6 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import emailjs from 'emailjs-com';
 import {faGithub, faYoutube, faTwitter, faFacebook,faHackerrank,faLinkedin,faGoogle} from '@fortawesome/free-brands-svg-icons';
+
 const Contact = () => {
 
     const sendEmail = (e) => {
@@ -35,8 +36,9 @@ const Contact = () => {
                       <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                   </div>
                   <div className="col-8 pt-2 mx-auto">
-                      <input type="submit" className="btn btn-info" value="Send Message"></input>
+                      <input type="submit" className="resume" value="Send Message"></input>
                   </div>
+                  
               </div>
           </form>
       </div>
