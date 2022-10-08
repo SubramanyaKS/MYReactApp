@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 .body{
-  font-family: 'Roboto Condensed' sans-serif;
+  font-family: cursive;
   
 }
 .html,.body{
@@ -21,11 +21,14 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
-  background: linear-gradient(45deg, rgb(104, 2, 2), rgb(250, 2, 2));
+  height: 100%;
+  /*background: linear-gradient(45deg, rgb(104, 2, 2), rgb(250, 2, 2));
+*/
 }
 a {
-  color: #FFF;
+  color: rgb(255, 255, 255) !important;
+  font-family: cursive;
+  font-size: medium;
 }
 
 .list {
@@ -51,7 +54,7 @@ a {
   right: 10px;
   top: 7px;
   padding: 5px;
-  color: #000;
+  color: #00FFFF;
   font-size: 18px;
 }
 
@@ -78,7 +81,7 @@ a {
   }
 
 }
-nav ul li{
+/*nav ul li{
   text-transform: uppercase;
 }
 .navbar-nav > li >a.active, .navbar-nav > li >a:focus{
@@ -104,7 +107,7 @@ nav a.nav-link{
 font-weight: 500;
 letter-spacing: 0.0375rem;
 cursor: pointer;
-}
+}*/
 
 .fa{
   width: 16.25rem;
@@ -166,7 +169,8 @@ cursor: pointer;
 
 /**Header*/
 .main{
-	background:url(./components/bg3.jpg)no-repeat;
+	/*background:url(./components/img/bg3.jpg)no-repeat;*/
+  background-color: #180a29 !important;
   background-size: cover;
   background-position: center;
 	text-align: center;
@@ -175,6 +179,8 @@ cursor: pointer;
 }
 .main h1{
   color: rgb(239, 255, 22);
+  font-family: cursive;
+  
 }
 #container-fluid {
   height: auto;
@@ -189,10 +195,12 @@ padding-right: 0;
 }
 .header-wrapper {
   position: relative;
-  background: url(./components/bg2.jpg);
+ /* background: url(./components/img/bg2.jpg);
+  background-size: cover;*/
+  background-color: #180a29 !important;
   background-size: cover;
   background-position: center;
-  height: 20vh;
+  
 }
 
 .main-info {
@@ -206,27 +214,36 @@ padding-right: 0;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: #00FFFF;
   z-index: 1;
 }
 
 .typed-text {
   font-size: 2rem;
-  color: white;
+  color: #00FFFF;
 }
 
 /**About*/
 .about{
-	background:url(./components/bg3.jpg)no-repeat;
+	/*background:url(./components/img/bg3.jpg)no-repeat;
+  background-size: cover;*/
+  background-color: #180a29 !important;
   background-size: cover;
 	margin:auto;
 	text-align:center;
 }
+.card-title{
+  color:#00FFFF;
+}
 .about p, h2{
-  color: rgb(242, 245, 248);
+  color: rgb(12, 243, 212);
+  font-family: cursive;
+  font-size: larger;
 }
 .experience{
-	background:url(./components/bg3.jpg)no-repeat;
+	/*background:url(./components/img/bg3.jpg)no-repeat;
+  background-size: cover;*/
+  background-color: #180a29 !important;
   background-size: cover;
 	margin:0;
 	text-align:center;
@@ -234,29 +251,32 @@ padding-right: 0;
 	height: 100%;
 }
 .education p, h3,h6{
-  color: rgb(242, 245, 248);
+  color: #00FFFF;
 }
 .card{
-	background-color:#e91505 !important;
+	background-color:#180a29!important;
+  color:#00FFFF;
 	margin-bottom:10px;
 	margin-left:10px;
 	border-radius:0;
-	box-shadow:5px 5px 15px #e74c;
+	box-shadow:5px 5px 15px #00FFFF;
 	transition:all 0.3s ease-in;
 	-webkit-transition:all 0.3s ease-in;
 	-moz-transition:all 0.3s ease-in;
 }
 .card:hover{
-	background-color:#800000 !important;
+	background-color: #00FFFF !important;
 	transition:0.5s;
 	
 	color:#00FFFF;
 	border-radius:5px;
 	border:none;
-	box-shadow:5px,5px,10px,#9E9E9E;
+	box-shadow:5px,5px,10px,#180a29;
 }
 .education{
-	background:url(./components/bg3.jpg)no-repeat;
+	/*background:url(./components/img/bg3.jpg)no-repeat;
+  background-size: cover;*/
+  background-color: #180a29 !important;
   background-size: cover;
 	margin:auto;
 	text-align:center;
@@ -264,7 +284,9 @@ padding-right: 0;
 	
 }
 .project{
-	background:url(./components/bg3.jpg)no-repeat;
+	/*background:url(./components/img/bg3.jpg)no-repeat;
+  background-size: cover;*/
+  background-color: #180a29 !important;
   background-size: cover;
 	margin:auto;
 	text-align:center;
@@ -273,7 +295,9 @@ padding-right: 0;
 /**Contact*/
 
 .social-container {
-  background: url(./components/bg3.jpg)no-repeat;
+ /* background: url(./components/img/bg3.jpg)no-repeat;
+  background-size: cover;*/
+  background-color: #180a29 !important;
   background-size: cover;
   padding: 25px 50px;
   text-align:center;
@@ -285,6 +309,8 @@ a.social {
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
+  background-color: #e5f1f1;
+  /*border-radius: 50%;*/
 }
 a.navbar-brand{
   color: #00FFFF;
@@ -308,7 +334,7 @@ a.linkedin {
   color: #49a1eb;
 }
 a.github{
-  color:#121213;
+  color:#4e5050;
 
 }
 a.gmail{
@@ -321,7 +347,9 @@ a.hackerrank{
   color: black;
 }
 .skills{
-	background:url(./components/bg3.jpg)no-repeat;
+	/*background:url(./components/img/bg3.jpg)no-repeat;
+  background-size: cover;*/
+  background-color: #180a29 !important;
   background-size: cover;
 	margin:auto;
 	text-align:center;
@@ -332,9 +360,9 @@ a.hackerrank{
   align-items: center;
 }
 .skills .card{
-  background-color: #800000;
+  background-color: #0ee1fd;
   align-items: center;
 }
 .skills h4{
-  color: azure;
+  color: #00FFFF;
 }
