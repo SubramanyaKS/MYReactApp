@@ -4,6 +4,9 @@ import Button from "@restart/ui/esm/Button";
 
 
 const About=() =>{
+	const resume =()=>{
+		window.open('https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view','_blank');
+	}
     return(
 		<div>
 			<section className="about py-5" id="about">
@@ -27,13 +30,14 @@ I also actively interact with the open source community, contributing to it and 
 I'm constantly open to new ideas and always look to reach out to others, share and discuss ideas with them, thereby learn and also help others grow too..</p>
                 </div>
 				<Button
+					className="resume"
+					style={{backgroundColor:"aqua"}}
 					variant="primary"
-      				href="https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view"
-      				color="transparent"
-      				target="_blank"
-      				download>
+      				onClick={resume}
+      			>
 						  Download Resume
  				</Button>
+				 
 			{/*</div>
 			
 		</div>*/}
