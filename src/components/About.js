@@ -8,11 +8,11 @@ const About=() =>{
 		<div>
 			<section className="about py-5" id="about">
         <div className="container-fluid py-5">
-		    <div className="row ">
-			    <div className="col-lg-5 col-md-6">
+		     {/*<div className="row ">
+			 } <div className="col-lg-5 col-md-6">*/}
                     <img className="MeImg" src={Me} alt="me.." />
 			    </div>
-			    <div className="col-md-7  my-3">
+			    <div className="col">
 				    <h2> &nbsp; About Me.</h2>
 				    <p> &nbsp;&nbsp; Learner|Programmer|Developer</p>
 				    <p className = "py-5"> &nbsp; I am <span className="font-weight-bold">Subramanya K S</span>. A curious minded individual who is eager to explore and solve different problems, and, doing so I try out new approaches with existing technologies, experiment with emerging tools, constantly updating my knowledge,
@@ -34,8 +34,9 @@ I'm constantly open to new ideas and always look to reach out to others, share a
       				download>
 						  Download Resume
  				</Button>
-			</div>
-		</div>
+			{/*</div>
+			
+		</div>*/}
 		</section>
 		</div>
     )
