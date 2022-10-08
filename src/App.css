@@ -271,6 +271,13 @@ padding-right: 0;
 	border-radius:5px;
 	border:none;
 	box-shadow:5px,5px,10px,#180a29;
+  
+}
+.resume{
+  background-color: aqua;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: cursive;
 }
 .education{
 	/*background:url(./components/img/bg3.jpg)no-repeat;
