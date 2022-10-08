@@ -267,8 +267,7 @@ padding-right: 0;
 .card:hover{
 	background-color: #00FFFF !important;
 	transition:0.5s;
-	
-	color:#00FFFF;
+	color:#180a29;
 	border-radius:5px;
 	border:none;
 	box-shadow:5px,5px,10px,#180a29;
