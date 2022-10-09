@@ -222,8 +222,19 @@ padding-right: 0;
   font-size: 2rem;
   color: #00FFFF;
 }
-
 /**About*/
+.loader{
+  background-color: #180a29 !important;
+  background-size: cover;
+	margin:auto;
+	text-align:center;
+  align-items: center;
+  padding: 20%;
+  padding-left: 45%;
+  padding-top: 23%;
+  
+
+}
 .about{
 	/*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
