@@ -252,6 +252,7 @@ padding-right: 0;
 }
 .education p, h3,h6{
   color: #00FFFF;
+  font-family:cursive;
 }
 .card{
 	background-color:#180a29!important;
@@ -272,6 +273,12 @@ padding-right: 0;
 	border:none;
 	box-shadow:5px,5px,10px,#180a29;
   
+}
+.card-title:hover{
+  color:#180a29 !important;
+}
+h1{
+  font-family:cursive;
 }
 .resume{
   background-color: aqua;
