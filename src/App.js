@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/NavBar1';
 import About from './components/About';
@@ -10,9 +10,17 @@ import Skills from './components/Skills';
 import Experience1 from './components/Experience1';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import Contact from './components/Contact';
+import  Spinner1  from './components/Loader';
 function App() {
+  const [ spinner, setSpinner ] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setSpinner(false), 1000)
+  }, []);
+
   return (
     <>
+    {spinner?<Spinner1/>:
     <Router>
     <Navbar />
     <Routes>
@@ -24,7 +32,7 @@ function App() {
       <Route exact path="/skills" element={<Skills/>}/>
       <Route exact path="/contact" element={<Contact/>}/>
     </Routes>
-    </Router>
+    </Router>}
     
     </>
   );
