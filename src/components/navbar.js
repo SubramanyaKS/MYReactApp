@@ -1,10 +1,9 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
-import {BrowserRouter, Link} from "react-router-dom"; 
+import { Link} from "react-router-dom"; 
 import {useState, useEffect} from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBars,faCode} from '@fortawesome/free-solid-svg-icons';
+import {faBars} from '@fortawesome/free-solid-svg-icons';
 const Navbar = ()=>{
 
        /**  <nav className="navbar navbar-expand-lg navbar-light bg-dark">
