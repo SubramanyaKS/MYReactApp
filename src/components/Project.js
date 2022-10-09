@@ -11,13 +11,13 @@ export default function Experience1() {
     <>
       <section className="project py-5" id="project">
         <div className="container-fluid ">
-        <h2 className="text-center"> &nbsp; My Project.</h2><br /><br></br>
+        <h1 className="text-center" style={{color:"aqua"}}> &nbsp; My Project.</h1><br /><br></br>
           <div className="row row-cols-1 row-cols-md-2 row-eq-height">
             <div className="col mb-4  d-flex align-items-stretch">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "25rem" , fontFamily:"cursive"}}>
               <Card.Img variant="top" src="./images/bus.jpg" />
                 <Card.Body>
-                  <Card.Title style={{ color: "black" }}>Bus Reservation System.</Card.Title>
+                  <Card.Title >Bus Reservation System.</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     A Dbms mini-project
                    </Card.Subtitle>
@@ -29,10 +29,10 @@ export default function Experience1() {
               </Card>
             </div>
             <div className="col mb-4  d-flex align-items-stretch">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "25rem", fontFamily:"cursive" }}>
               <Card.Img variant="top" src="./images/heart.jpg" />
                 <Card.Body>
-                  <Card.Title style={{ color: "black" }}>Heart Disease Prediction System.</Card.Title>
+                  <Card.Title>Heart Disease Prediction System.</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                   Machine-learning project using regression model.
                    </Card.Subtitle>
@@ -44,10 +44,10 @@ export default function Experience1() {
               </Card>
             </div>
             <div className="col mb-4  d-flex align-items-stretch">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "25rem" , fontFamily:"cursive"}}>
               <Card.Img variant="top" src="./images/cal.jpg" />
                 <Card.Body>
-                  <Card.Title style={{ color: "black" }}>VTU SGPA CGPA Calculator.</Card.Title>
+                  <Card.Title>VTU SGPA CGPA Calculator.</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                   Java jar application.
                    </Card.Subtitle>
@@ -59,10 +59,10 @@ export default function Experience1() {
               </Card>
             </div>
             <div className="col mb-4  d-flex align-items-stretch">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "25rem", fontFamily:"cursive" }}>
               <Card.Img variant="top" src="./images/diabeties.jpg" />
                 <Card.Body>
-                  <Card.Title style={{ color: "black" }}>Diabeties Prediction System.</Card.Title>
+                  <Card.Title >Diabeties Prediction System.</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                   Machine-learning project using regression model.
                    </Card.Subtitle>
@@ -74,25 +74,26 @@ export default function Experience1() {
               </Card>
             </div>
             <div className="col mb-4  d-flex align-items-stretch">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "25rem", fontFamily:"cursive" }}>
               <Card.Img variant="top" src="./images/weather.jpg" />
                 <Card.Body>
-                  <Card.Title style={{ color: "black" }}>Weather Application.</Card.Title>
+                  <Card.Title >Weather Application.</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                   API Based Web Application.
                    </Card.Subtitle>
                   <Card.Text>
                   Developed a web application which uses openweathermap API to fetch the weather details of various city across the globe by giving city name as input.Used Django as web framework.
                  </Card.Text>
-                 <div className="social-buttons mt-5"><a href="https://github.com/SubramanyaKS/WeatherProject/"> </a><button className="neo-button"><a href="https://github.com/SubramanyaKS/WeatherProject/"><FontAwesomeIcon icon={faGithub} style={{fontSize: '24px'}} /> </a></button></div>
+                 <div className="social-buttons mt-5"><a href="https://github.com/SubramanyaKS/Weather-app/"><button className="neo-button"><FontAwesomeIcon icon={faGithub} style={{fontSize: '24px'}} /> </button></a>
+                    <a href="https://subramanyaks.github.io/Weather-app/"><button className="neo-button"><FontAwesomeIcon icon={faSquareArrowUpRight} style={{fontSize: '24px'}} /> </button></a></div>
                 </Card.Body>
               </Card>
             </div>
             <div className="col mb-4  d-flex align-items-stretch">
-            <Card style={{ width: "25rem" }}>
+            <Card style={{ width: "25rem", fontFamily:"cursive" }}>
               <Card.Img variant="top" src="./images/media.jpg" />
                 <Card.Body>
-                  <Card.Title style={{ color: "black" }}>Media Player Application.</Card.Title>
+                  <Card.Title>Media Player Application.</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                   Android Application Project.
                    </Card.Subtitle>
