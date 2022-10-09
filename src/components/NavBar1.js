@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <Navbar style={{color:"black"}} collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand style={{ fontFamily: "cursive" }}>
+        <Navbar.Brand style={{ fontFamily: "cursive",color:'#00ffff' }}>
           Subramanya K S
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
