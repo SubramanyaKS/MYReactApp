@@ -8,14 +8,14 @@ export default function Experience1() {
     <>
     <section className="experience py-5" id="experience">
   <div className="container-fluid">
-    <center> <h2> &nbsp; Experience.</h2></center>
-    <br /><br /><br /><br></br><br></br>
+    <h1 style={{color:"aqua"}}> &nbsp; Experience.</h1>
+    <br /><br/>
     <div className="row row-cols-1 row-cols-md-2">
       <div className="col sm-6  d-flex align-items-stretch">
       <Card style={{ width: "25rem" }}>
       <Card.Img variant="top" src="./images/ekatvaI.jpg" />
         <Card.Body>
-          <Card.Title style={{ color: "green" }}>Web Development Intern.</Card.Title>
+          <Card.Title style={{ color: "aqua" }}>Web Development Intern.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
           Ekathva Innovations Pvt. Ltd.
           </Card.Subtitle>
@@ -30,7 +30,7 @@ export default function Experience1() {
       <Card style={{ width: "25rem" }}>
       <Card.Img variant="top" src="./images/Thesparks.jpg" />
         <Card.Body>
-          <Card.Title style={{ color: "green" }}>Web Development and Design Intern.</Card.Title>
+          <Card.Title style={{ color: "aqua" }}>Web Development and Design Intern.</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
           The Sparks Foundation.
           </Card.Subtitle>
