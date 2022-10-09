@@ -6,8 +6,9 @@ const Education=() =>{
             <section className="education py-5" id="education">
   <div className="container-fluid">
     <div className="row">
-      <div className="col-lg-7 my-3">
-        <h2 className="mb-5"> &nbsp; Education Details.</h2>
+        <h1 className="mb-5" style={{color:"aqua"}}> &nbsp; Education Details.</h1>
+      <div className="col">
+        
         <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="shadow-lg flex-grow-1">
             <h3 className="mb-0">&nbsp;J N N College of Engineering, Shivamogga</h3>
