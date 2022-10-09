@@ -75,7 +75,8 @@ const  Project1 = ()=>{
                     <h5 className="card-title">Weather Application.</h5>
                     <h6 className="card-subtitle mb-2 text-muted">API Based Web Application.</h6>
                     <p className="card-text">Developed a web application which uses openweathermap API to fetch the weather details of various city across the globe by giving city name as input.Used Django as web framework.</p>
-                    <div className="social-buttons mt-5"><a href="https://github.com/SubramanyaKS/WeatherProject/"> </a><button className="neo-button"><a href="https://github.com/SubramanyaKS/WeatherProject/"><FontAwesomeIcon icon={faGithub} style={{fontSize: '24px'}} /> </a></button></div>				
+                    <div className="social-buttons mt-5"><a href="https://github.com/SubramanyaKS/Weather-app/"><button className="neo-button"><FontAwesomeIcon icon={faGithub} style={{fontSize: '24px'}} /> </button></a>
+                    <a href="https://subramanyaks.github.io/Weather-app/"><button className="neo-button"><FontAwesomeIcon icon={faSquareArrowUpRight} style={{fontSize: '24px'}} /> </button></a></div>				
                 </div>
                 </div>
             </div>
