@@ -1,20 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import emailjs from 'emailjs-com';
+//import emailjs from 'emailjs-com';//
 import {faGithub, faYoutube, faTwitter, faFacebook,faHackerrank,faLinkedin,faGoogle} from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
+    const [details, setDetails]= useState({email:"",name:"",subject:"",body:""});
 
+
+    const handleChange = (event) => {
+        setDetails({ ...details, [event.target.name]: event.target.value });
+      };
     const sendEmail = (e) => {
+
         e.preventDefault();
+        var data =  details;
         
-        emailjs.sendForm('service_n17er2k', 'template_8e3unw5', e.target, 'KZLEAm3-rwyXgL5_-')
+        
+        
+       /* emailjs.sendForm('service_eb7zd3g', 'template_8e3unw5', e.target, '2zeOQk264Nxpdls2r')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
-          e.target.reset()
+          e.target.reset()*/
       };
     return(
         <section className="social-container" id="contact">
@@ -22,18 +31,19 @@ const Contact = () => {
           <h3>Contact</h3>
       <div className="container">
       <form onSubmit={sendEmail}>
+          <p style={{color:"red"}}>Form is temporarily disabled</p>
               <div className="row pt-5 mx-auto">
                   <div className="col-8 form-group mx-auto">
-                      <input type="text" className="form-control"  placeholder="Name" name="from_name"/>
+                      <input type="text" name="name" value={details.name} onClick={handleChange} className="form-control"  placeholder="Name"/>
                   </div>
                   <div className="col-8 form-group pt-2 mx-auto">
-                      <input type="email"  className="form-control" placeholder="Email Address" name="from_email"/>
+                      <input type="email" name="email" value={details.email} onClick={handleChange} className="form-control" placeholder="Email Address"/>
                   </div>
                   <div className="col-8 form-group pt-2 mx-auto">
-                      <input type="text" className="form-control" placeholder="Subject" name="subject"/>
+                      <input name="subject" value={details.subject} type="text" onClick={handleChange} className="form-control" placeholder="Subject"/>
                   </div>
                   <div className="col-8 form-group pt-2 mx-auto">
-                      <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                      <textarea name="body" value={details.body} onClick={handleChange} className="form-control" id="" cols="30" rows="8" placeholder="Your message"></textarea>
                   </div>
                   <div className="col-8 pt-2 mx-auto">
                       <input type="submit" className="resume" value="Send Message"></input>
