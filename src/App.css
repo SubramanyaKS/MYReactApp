@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 .body{
-  font-family: cursive;
+  font-family: "Sofia", sans-serif;
   
 }
 .html,.body{
@@ -333,7 +333,7 @@ a.social {
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
-  background-color: #e5f1f1;
+  
   /*border-radius: 50%;*/
 }
 a.navbar-brand{
