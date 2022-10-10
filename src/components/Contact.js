@@ -26,9 +26,11 @@ const Contact = () => {
           e.target.reset()*/
       };
     return(
-        <section className="social-container" id="contact">
-      <div className="social-container">
-          <h3>Contact</h3>
+        <section className="contact" id="contact">
+            
+            <div className="container-fluid ">
+                <br/>
+            <h2>Contact</h2>
       <div className="container">
       <form onSubmit={sendEmail}>
           <p style={{color:"red"}}>Form is temporarily disabled</p>
@@ -52,8 +54,7 @@ const Contact = () => {
               </div>
           </form>
       </div>
-    <br></br>
-            <h3>Let's connect</h3>
+      <h2>Let's connect</h2>
 
             <br></br>
             <a href="https://www.linkedin.com/in/subramanya-k-s-b74a92204/" className="linkedin social"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
@@ -63,6 +64,9 @@ const Contact = () => {
 			<a href="https://twitter.com/subbukshebbar" className="twitter social"><FontAwesomeIcon icon={faTwitter} size="2x"/></a>
 			<a href="https://www.facebook.com/profile.php?id=100070944345090"className="facebook social"><FontAwesomeIcon icon={faFacebook} size="2x"/></a>
             <a href="mailto:subramanyaks2205@gmail.com"className="gmail social"><FontAwesomeIcon icon={faGoogle} size="2x"/></a>
+       <br/>
+    <br></br>
+            
         </div>
         </section>
     );
