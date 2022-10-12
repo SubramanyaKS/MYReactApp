@@ -13,7 +13,7 @@ const Header = () => {
             <h1 style={{color:"#00ddff", fontSize: "50px" }}>SUBRAMANYA K S</h1>
             <br></br>
             <br></br>
-           <p style={{color:"#00ddff",fontSize:"35px"}}>&gt;&gt;&gt;<Typed
+           <p style={{color:"#00ddff",fontSize:"35px"}}>$<Typed
               className="typed-text"
               strings={[
                 "Learner",
