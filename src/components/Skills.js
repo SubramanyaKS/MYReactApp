@@ -8,7 +8,7 @@ export default function Skills() {
       <section className="skills py-5">
         <Container fluid className="App py-2 overflow-hidden">
           <Row className="justify-content-center">
-            <h2>Skills</h2>
+            <h2 style={{fontSize:"35px",color:"#00ddff"}}>&lt; Skills /&gt;</h2>
           </Row>
           <br></br>
           <h4> Web Development </h4>
