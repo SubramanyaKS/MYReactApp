@@ -9,6 +9,7 @@ import {
   faHackerrank,
   faLinkedin,
   faGoogle,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
@@ -101,12 +102,12 @@ const Contact = () => {
         <a href="https://github.com/SubramanyaKS" className="github social">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
-        <a
+        {/*<a
           href="https://www.hackerrank.com/subramanyaks2205"
           className="hackerrank"
         >
           <FontAwesomeIcon icon={faHackerrank} size="2x" />
-        </a>
+        </a>*/}
         <a
           href="https://www.youtube.com/channel/UCg28-MrcK-8CCFos7FWp0Dg/"
           className="youtube social"
@@ -121,6 +122,12 @@ const Contact = () => {
           className="facebook social"
         >
           <FontAwesomeIcon icon={faFacebook} size="2x" />
+        </a>
+        <a
+          href="https://www.instagram.com/subramanyakshebbar/"
+          className="instagram social"
+        >
+          <FontAwesomeIcon icon={faInstagram} size="2x" />
         </a>
         <a href="mailto:subramanyaks2205@gmail.com" className="gmail social">
           <FontAwesomeIcon icon={faGoogle} size="2x" />
