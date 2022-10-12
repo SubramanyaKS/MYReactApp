@@ -9,11 +9,11 @@ const Header = () => {
         <div className="row py-5">
           <div className="col-lg-12 col-mg-12 py-5 mr-auto">
             <br></br>
-            <h1>Hi I am </h1>
-            <h1 style={{ fontSize: "50px" }}>SUBRAMANYA K S</h1>
+            <h1 style={{color:"#00ddff"}}>Hi I am </h1>
+            <h1 style={{color:"#00ddff", fontSize: "50px" }}>SUBRAMANYA K S</h1>
             <br></br>
             <br></br>
-            <Typed
+           <p style={{color:"#00ddff",fontSize:"35px"}}>&gt;&gt;&gt;<Typed
               className="typed-text"
               strings={[
                 "Learner",
@@ -21,10 +21,10 @@ const Header = () => {
                 "Simple Coder",
                 "Developer",
               ]}
-              typeSpeed={40}
-              backSpeed={60}
+              typeSpeed={90}
+              backSpeed={90}
               loop
-            />
+            /></p>
           </div>
         </div>
       </div>
