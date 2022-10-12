@@ -223,7 +223,7 @@ cursor: pointer;
 }
 
 .typed-text {
-  font-size: 2rem;
+  font-size: 30px;
   color: #00ffff;
 }
 /**About*/
@@ -248,7 +248,7 @@ cursor: pointer;
   border-bottom: 0px;
 }
 .card-title {
-  color: #00ffff;
+  color: #00ddff !important;
 }
 .about p,
 h2 {
@@ -273,6 +273,9 @@ h3,
 h6 {
   color: #00ffff;
   font-family: cursive;
+}
+.box{
+  box-shadow: 5px 5px 15px #00ffff !important;
 }
 .card {
   background-color: #180a29 !important;
