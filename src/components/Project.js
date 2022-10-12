@@ -11,9 +11,9 @@ export default function Experience1() {
     <>
       <section className="project py-5" id="project">
         <div className="container-fluid ">
-          <h1 className="text-center" style={{ color: "aqua" }}>
+          <h1 className="text-center" style={{ color: "#00ddff" }}>
             {" "}
-            &nbsp; My Project.
+            &nbsp;&lt; My Project. /&gt;
           </h1>
           <br />
           <br></br>
