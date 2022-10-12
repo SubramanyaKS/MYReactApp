@@ -390,6 +390,7 @@ a.github {
 .contact {
   background-color: #180a29 !important;
   background-size: cover;
+  display: block;
   margin: auto;
   text-align: center;
   width: 100%;
