@@ -25,14 +25,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     var data = details;
-
-    /* emailjs.sendForm('service_eb7zd3g', 'template_8e3unw5', e.target, '2zeOQk264Nxpdls2r')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset()*/
   };
   return (
     <section className="contact" id="contact">
