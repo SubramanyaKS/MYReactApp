@@ -31,7 +31,7 @@ const Contact = () => {
     <section className="contact" id="contact">
       <div className="container-fluid ">
         <br />
-        <h2>Contact</h2>
+        <h2 style={{fontFamily:"30px", color: "#00ddff" }}>&lt; Contact /&gt;</h2>
         <div className="container">
           <form onSubmit={sendEmail}>
             <p style={{ color: "red" }}>Form is temporarily disabled</p>
