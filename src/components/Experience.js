@@ -11,7 +11,7 @@ const Experience = () => {
         <br></br>
         <center>
           {" "}
-          <h2> &nbsp; Experience.</h2>
+          <h2> &nbsp; &lt; Experience. &gt;</h2>
         </center>
         <br />
         <br />
