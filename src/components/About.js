@@ -13,14 +13,15 @@ const About = () => {
     <div>
       <section className="about py-5" id="about">
         <div className="container-fluid py-5">
-          {/*<div className="row ">
+        <h2 style={{ fontSize:"35px",color:"#00ddff"}}> &nbsp;<b>&lt; About Me. /&gt;</b> </h2>
+         {" "} <br/>{/*<div className="row ">
 			 } <div className="col-lg-5 col-md-6">*/}
 
           {/* </div>*/}
           <img className="MeImg" src={Me} alt="me.." />
           <br />
           <div className="col">
-            <h2> &nbsp;<b>About Me.</b> </h2>
+            
             <p> &nbsp;&nbsp; Learner|Programmer|Developer</p>
             <p className="py-5">
               {" "}
