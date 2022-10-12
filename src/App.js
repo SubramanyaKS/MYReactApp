@@ -11,6 +11,7 @@ import Experience1 from './components/Experience1';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
 import Contact from './components/Contact';
 import  Spinner1  from './components/Loader';
+import Footer from './components/Footer';
 function App() {
   const [ spinner, setSpinner ] = useState(true);
 
@@ -32,6 +33,7 @@ function App() {
       <Route exact path="/skills" element={<Skills/>}/>
       <Route exact path="/contact" element={<Contact/>}/>
     </Routes>
+    <Footer />
     </Router>}
     
     </>
