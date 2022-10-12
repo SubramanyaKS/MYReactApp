@@ -8,7 +8,7 @@ export default function Experience1() {
     <>
       <section className="experience py-5" id="experience">
         <div className="container-fluid">
-          <h1 style={{ color: "aqua" }}> &nbsp; Experience.</h1>
+          <h1 style={{ color: "#00ddff" }}> &nbsp; &lt; Experience./&gt;</h1>
           <br />
           <br />
           <div className="row row-cols-1 row-cols-md-2">
