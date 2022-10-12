@@ -18,31 +18,31 @@ const NavBar = () => {
             color: "#00ffff",
           }}
         >
-          Subramanya K S
+          &lt;Subramanya K S/&gt;
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Link href="/">
-              <h2>Home</h2>
+              <h2>&lt; Home &gt;</h2>
             </Nav.Link>
             <Nav.Link href="/about">
-              <h2>About</h2>
+              <h2>&lt; About &gt;</h2>
             </Nav.Link>
             <Nav.Link href="/education">
-              <h2>Education</h2>
+              <h2>&lt; Education &gt;</h2>
             </Nav.Link>
             <Nav.Link href="/experience">
-              <h2>Experience</h2>
+              <h2>&lt; Experience &gt;</h2>
             </Nav.Link>
             <Nav.Link href="/project">
-              <h2>Project</h2>
+              <h2>&lt; Project &gt;</h2>
             </Nav.Link>
             <Nav.Link href="/skills">
-              <h2>Skills</h2>
+              <h2>&lt; Skills &gt;</h2>
             </Nav.Link>
             <Nav.Link href="/contact">
-              <h2>Contact</h2>
+              <h2>&lt; Contact &gt;</h2>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
