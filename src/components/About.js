@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "./subbu.jpg";
+import Me from "./img/subbu.jpg";
 import Button from "@restart/ui/esm/Button";
 
 const About = () => {
@@ -20,12 +20,12 @@ const About = () => {
           <img className="MeImg" src={Me} alt="me.." />
           <br />
           <div className="col">
-            <h2> &nbsp; About Me.</h2>
+            <h2> &nbsp;<b>About Me.</b> </h2>
             <p> &nbsp;&nbsp; Learner|Programmer|Developer</p>
             <p className="py-5">
               {" "}
               &nbsp; I am{" "}
-              <span className="font-weight-bold">Subramanya K S</span>. A
+              <span className="font-weight-bold"><b>Subramanya K S</b></span>. A
               curious minded individual who is eager to explore and solve
               different problems, and, doing so I try out new approaches with
               existing technologies, experiment with emerging tools, constantly
