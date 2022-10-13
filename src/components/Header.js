@@ -24,6 +24,7 @@ const Header = () => {
               typeSpeed={90}
               backSpeed={90}
               loop
+              cursorChar= "_"
             /></p>
           </div>
         </div>
