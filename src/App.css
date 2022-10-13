@@ -174,7 +174,7 @@ cursor: pointer;
 /**Header*/
 .main {
   /*background:url(./components/img/bg3.jpg)no-repeat;*/
-  background-color: #180a29 !important;
+  background-color: #000000 !important;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -202,7 +202,8 @@ cursor: pointer;
   position: relative;
   /* background: url(./components/img/bg2.jpg);
   background-size: cover;*/
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   background-position: center;
 }
@@ -228,7 +229,8 @@ cursor: pointer;
 }
 /**About*/
 .loader {
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -240,7 +242,7 @@ cursor: pointer;
 .about {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
-  background-color: #180a29 !important;
+  background-color: #000000 !important;
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -259,7 +261,8 @@ h2 {
 .experience {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   margin: 0;
   text-align: center;
@@ -278,7 +281,8 @@ h6 {
   box-shadow: 5px 5px 15px #00ffff !important;
 }
 .card {
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   color: #00ffff;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -303,7 +307,7 @@ h1 {
   font-family: cursive;
 }
 .resume {
-  background-color: aqua;
+  background-color: #00ddff;
   border-radius: 10%;
   font-size: 20px;
   font-family: cursive;
@@ -311,7 +315,8 @@ h1 {
 .education {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -322,7 +327,8 @@ h1 {
 .project {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -335,7 +341,8 @@ h1 {
 .social-container {
   /* background: url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   padding: 25px 50px;
   text-align: center;
@@ -379,7 +386,8 @@ a.github {
   font-size: 29px;
 }
 .footer {
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -391,7 +399,8 @@ a.github {
   color: #00ffff;
 }
 .contact {
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   display: block;
   margin: auto;
@@ -412,7 +421,8 @@ a.hackerrank {
 .skills {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
-  background-color: #180a29 !important;
+  /* background-color: #180a29 !important; */
+  background-color: #000000 !important;
   background-size: cover;
   margin: auto;
   text-align: center;
