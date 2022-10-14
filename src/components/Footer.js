@@ -3,13 +3,13 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="footer">
-      <p class="text-center">
+      <p className="text-center">
         <b>
           &copy;2022. Designed with{" "}
           <FontAwesomeIcon
             icon={faHeart}
             style={{ color: "red", fontSize: "20px" }}
-            beat
+            className="fa-beat"
           />{" "}
           by Subramanya K S.
         </b>
