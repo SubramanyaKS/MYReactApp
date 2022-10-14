@@ -7,6 +7,7 @@ I am Subramanya K S.This is my portfolio using reactJs.
 
 * React JS
 * React Bootstrap
+* React tsParticles
 
 ---
 
@@ -57,6 +58,9 @@ git push origin xyz
 5. Open a pull request
 
 ---
+
+*Note: For Particle Effect please refer:
+[This tutorial](https://www.youtube.com/watch?v=uuohRbc18zE)
 
 If you like this don't forget to ⭐ the repository.
 
