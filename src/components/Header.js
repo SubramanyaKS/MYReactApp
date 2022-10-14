@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Background from './Background';
 const Header = () => {
   return (
     <section className="main py-5">
@@ -27,8 +28,10 @@ const Header = () => {
               cursorChar= "_"
             /></p>
           </div>
+          
         </div>
       </div>
+      <Background id="tsparticles" />
     </section>
   );
 };
