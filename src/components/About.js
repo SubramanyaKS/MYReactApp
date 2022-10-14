@@ -1,7 +1,7 @@
 import React from "react";
 import Me from "./img/subbu.jpg";
 import Button from "@restart/ui/esm/Button";
-
+import Background from './Background';
 const About = () => {
   const resume = () => {
     window.open(
@@ -55,7 +55,9 @@ const About = () => {
         </div>
 
         {/*</div>*/}
+        <Background id="tsparticles" />
       </section>
+  
     </div>
   );
 };
