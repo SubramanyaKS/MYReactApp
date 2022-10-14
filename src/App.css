@@ -174,7 +174,7 @@ cursor: pointer;
 /**Header*/
 .main {
   /*background:url(./components/img/bg3.jpg)no-repeat;*/
-  background-color: #000000 !important;
+  /* background-color: #000000; */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -242,7 +242,7 @@ cursor: pointer;
 .about {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -262,7 +262,7 @@ h2 {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
   /* background-color: #180a29 !important; */
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
   background-size: cover;
   margin: 0;
   text-align: center;
@@ -316,7 +316,7 @@ h1 {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
   /* background-color: #180a29 !important; */
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -328,7 +328,7 @@ h1 {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
   /* background-color: #180a29 !important; */
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -342,7 +342,7 @@ h1 {
   /* background: url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
   /* background-color: #180a29 !important; */
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
   background-size: cover;
   padding: 25px 50px;
   text-align: center;
@@ -400,7 +400,7 @@ a.github {
 }
 .contact {
   /* background-color: #180a29 !important; */
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
   background-size: cover;
   display: block;
   margin: auto;
@@ -422,7 +422,7 @@ a.hackerrank {
   /*background:url(./components/img/bg3.jpg)no-repeat;
   background-size: cover;*/
   /* background-color: #180a29 !important; */
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
   background-size: cover;
   margin: auto;
   text-align: center;
