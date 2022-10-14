@@ -5,9 +5,9 @@ I am Subramanya K S.This is my portfolio using reactJs.
 
 ### Technology used.
 
-* React JS
-* React Bootstrap
-* React tsParticles
+* [React JS](https://reactjs.org/)
+* [React Bootstrap](https://react-bootstrap.github.io/)
+* [React tsParticles](https://github.com/matteobruni/tsparticles)
 
 ---
 
