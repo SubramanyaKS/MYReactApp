@@ -6,6 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
+import Background from "./Background";
 export default function Experience1() {
   return (
     <>
@@ -215,6 +216,7 @@ export default function Experience1() {
             </div>
           </div>
         </div>
+        <Background id="tsparticles" />
       </section>
     </>
   );
