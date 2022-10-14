@@ -1,5 +1,5 @@
 import React from "react";
-
+import Background from "./Background";
 const Education = () => {
   return (
     <div>
@@ -56,6 +56,7 @@ const Education = () => {
             </div>
           </div>
         </div>
+        <Background id="tsparticles" />
       </section>
     </div>
   );
