@@ -3,6 +3,7 @@ import React from "react";
 import "font-awesome/css/font-awesome.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Background from "./Background";
 export default function Experience1() {
   return (
     <>
@@ -74,6 +75,7 @@ export default function Experience1() {
             </div>
           </div>
         </div>
+        <Background id="tsparticles" />
       </section>
     </>
   );
