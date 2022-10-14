@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import emailjs from 'emailjs-com';//
+import Background from "./Background";
 import {
   faGithub,
   faYoutube,
   faTwitter,
   faFacebook,
-  faHackerrank,
   faLinkedin,
   faGoogle,
   faInstagram,
@@ -135,6 +135,7 @@ const Contact = () => {
         <br />
         <br></br>
       </div>
+      <Background id="tsparticles" />
     </section>
   );
 };
