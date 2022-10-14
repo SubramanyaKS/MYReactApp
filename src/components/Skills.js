@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
 import { Container, Row } from "react-bootstrap";
+import Background from './Background';
 export default function Skills() {
   return (
     <>
@@ -112,6 +113,7 @@ export default function Skills() {
             </Card>
           </Row>
         </Container>
+        <Background id="tsparticles" />
       </section>
     </>
   );
