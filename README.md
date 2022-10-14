@@ -59,7 +59,7 @@ git push origin xyz
 
 ---
 
-*Note: For Particle Effect please refer:
+**Note: For Particle Effect please refer:**
 [This tutorial](https://www.youtube.com/watch?v=uuohRbc18zE)
 
 If you like this don't forget to ⭐ the repository.
