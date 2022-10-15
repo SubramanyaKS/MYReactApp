@@ -24,11 +24,11 @@ const About = () => {
           <img className="MeImg" src={Me} alt="me.." />
           <br />
           <div className="col">
-            <p> &nbsp;&nbsp; Learner|Programmer|Developer</p>
+            <p  style={{color:"#00ff00"}}> &nbsp;&nbsp; Learner|Programmer|Developer</p>
             <p className="py-5">
               {" "}
               &nbsp; I am{" "}
-              <span className="font-weight-bold">
+              <span style={{color:"#00ff00"}} className="font-weight-bold">
                 <b>Subramanya K S</b>
               </span>
               . A curious minded individual who is eager to explore and solve
@@ -50,7 +50,7 @@ const About = () => {
           </div>
           <Button
             className="resume"
-            style={{ backgroundColor: "aqua" }}
+            style={{ backgroundColor: "#00ff00" }}
             variant="primary"
             onClick={resume}
           >
