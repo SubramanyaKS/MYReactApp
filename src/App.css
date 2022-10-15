@@ -278,6 +278,7 @@ h2 {
 }
 .education h3{
   color:#00ff00;
+  font-family: cursive;
 }
 .education p, h6 {
   color: #00ffff;
@@ -292,7 +293,7 @@ h2 {
   color: #00ffff;
   margin-bottom: 10px;
   margin-left: 10px;
-  border-radius: 0;
+  border-radius: 15px;
   box-shadow: 5px 5px 15px #00ffff;
   transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
@@ -302,7 +303,7 @@ h2 {
   background-color: #00ffff !important;
   transition: 0.5s;
   color: #180a29;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   box-shadow: 5px, 5px, 10px, #180a29;
 }
