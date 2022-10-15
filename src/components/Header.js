@@ -1,6 +1,8 @@
 import React from "react";
 import Typed from "react-typed";
 import "bootstrap/dist/css/bootstrap.min.css";
+//import Particles from "react-tsparticles";
+//import particlesConfig from "./Particle-config";
 import Background from './Background';
 const Header = () => {
   return (
@@ -31,7 +33,7 @@ const Header = () => {
           
         </div>
       </div>
-      <Background id="tsparticles" />
+    <Background id="tsparticles" />
     </section>
   );
 };
