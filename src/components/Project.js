@@ -4,7 +4,7 @@ import "font-awesome/css/font-awesome.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
-import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
 import Background from "./Background";
 export default function Experience1() {
@@ -83,7 +83,7 @@ export default function Experience1() {
                       {" "}
                       <button className="neo-button">
                         <FontAwesomeIcon
-                          icon={faSquareArrowUpRight}
+                          icon={faExternalLink}
                           style={{ fontSize: "24px" }}
                         />{" "}
                       </button>
@@ -179,7 +179,7 @@ export default function Experience1() {
                     <a href="https://subramanyaks.github.io/Weather-app/">
                       <button className="neo-button">
                         <FontAwesomeIcon
-                          icon={faSquareArrowUpRight}
+                          icon={faExternalLink}
                           style={{ fontSize: "24px" }}
                         />{" "}
                       </button>
