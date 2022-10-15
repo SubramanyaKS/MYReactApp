@@ -34,7 +34,8 @@ const Education = () => {
                 <div className="shadow-lg flex-grow-1">
                   <h3 className="mb-0">&nbsp;Vikasa P U College, Shivamogga</h3>
                   <p className="mb-0" style={{ fontSize: "1.25rem" }}>
-                    {" "}<br/>
+                    {" "}
+                    <br />
                     &nbsp; PUC /12th
                   </p>
                   <p style={{ fontSize: "1.0rem" }}>
@@ -48,7 +49,8 @@ const Education = () => {
                     &nbsp;Sri Ramakrishna Vidyanikethana, Shivamogga
                   </h3>
                   <p className="mb-0" style={{ fontSize: "1.25rem" }}>
-                    {" "}<br/>
+                    {" "}
+                    <br />
                     &nbsp; SSLC/10th
                   </p>
                 </div>
