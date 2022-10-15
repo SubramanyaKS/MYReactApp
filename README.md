@@ -11,6 +11,14 @@ I am Subramanya K S.This is my portfolio using reactJs.
 
 ---
 
+### Prerequisits.
+
+* [Node JS](https://nodejs.org/) must be installed before installing the project.
+* Operating System used is Windows  (Note: in linux i have not tested it).
+* You may use any editor of your choice (Recommended VS Code).
+
+---
+
 ### Run and Setup
 
 1. Fork the Project and clone Repository using git clone
@@ -59,6 +67,18 @@ git push origin xyz
 
 ---
 
+### Author
+
+**Subramanya K S**
+
+
+---
+### License.
+
+This project is licensed under the GNU General public License v3 License - see the `LICENSE.md` file for details
+
+
+---
 **Note: For Particle Effect please refer:**             
 [This tutorial](https://www.youtube.com/watch?v=uuohRbc18zE)
 
