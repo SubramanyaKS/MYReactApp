@@ -31,7 +31,9 @@ const Contact = () => {
     <section className="contact" id="contact">
       <div className="container-fluid ">
         <br />
-        <h2 style={{fontFamily:"30px", color: "#00ddff" }}>&lt; Contact /&gt;</h2>
+        <h2 style={{ fontFamily: "30px", color: "#00ddff" }}>
+          &lt; Contact /&gt;
+        </h2>
         <div className="container">
           <form onSubmit={sendEmail}>
             <p style={{ color: "red" }}>Form is temporarily disabled</p>
@@ -97,10 +99,10 @@ const Contact = () => {
           href="https://www.linkedin.com/in/subramanya-k-s-b74a92204/"
           className="linkedin social"
         >
-          <FontAwesomeIcon icon={faLinkedin} size="2x" className="fa-bounce"/>
+          <FontAwesomeIcon icon={faLinkedin} size="2x" className="fa-bounce" />
         </a>
         <a href="https://github.com/SubramanyaKS" className="github social">
-          <FontAwesomeIcon icon={faGithub} className="fa-flip" size="2x"/>
+          <FontAwesomeIcon icon={faGithub} className="fa-flip" size="2x" />
         </a>
         {/*<a
           href="https://www.hackerrank.com/subramanyaks2205"
@@ -112,16 +114,21 @@ const Contact = () => {
           href="https://www.youtube.com/channel/UCg28-MrcK-8CCFos7FWp0Dg/"
           className="youtube social"
         >
-          <FontAwesomeIcon icon={faYoutube}  beat size="2x" />
+          <FontAwesomeIcon icon={faYoutube} beat size="2x" />
         </a>
         <a href="https://twitter.com/subbukshebbar" className="twitter social">
-          <FontAwesomeIcon icon={faTwitter} className="fa-shake" bounce size="2x" />
+          <FontAwesomeIcon
+            icon={faTwitter}
+            className="fa-shake"
+            bounce
+            size="2x"
+          />
         </a>
         <a
           href="https://www.facebook.com/profile.php?id=100070944345090"
           className="facebook social"
         >
-          <FontAwesomeIcon icon={faFacebook}  size="2x" fade/>
+          <FontAwesomeIcon icon={faFacebook} size="2x" fade />
         </a>
         <a
           href="https://www.instagram.com/subramanyakshebbar/"
