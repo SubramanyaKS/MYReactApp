@@ -53,7 +53,7 @@ a {
   right: 10px;
   top: 7px;
   padding: 5px;
-  color: #00ffff;
+  color: #00ff2a;
   font-size: 18px;
 }
 
@@ -169,14 +169,8 @@ cursor: pointer;
   align-items: center;
 }
 
-#particles-js {
-  height: 100vh;
-  width: 100vw;
-}
-
-#particles-js canvas {
-  position: absolute;
-  z-index: 1;
+h2{
+  color:#00ff00;
 }
 
 /**Header*/
@@ -189,7 +183,7 @@ cursor: pointer;
   width: 100%;
   height: 100%;
   z-index: -1;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-bottom: 0px;
 }
 .main h1 {
@@ -255,15 +249,17 @@ cursor: pointer;
   background-size: cover;
   margin: auto;
   text-align: center;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-bottom: 0px;
 }
-.card-title {
-  color: #00ddff !important;
-}
-.about p,
 h2 {
-  color: rgb(12, 243, 212);
+  color: #00ff00;
+  font-family: cursive;
+  font-size: larger;
+}
+
+.about p {
+  color: #00ffff;
   font-family: cursive;
   font-size: larger;
 }
@@ -277,12 +273,13 @@ h2 {
   text-align: center;
   width: 100%;
   height: 100%;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-bottom: 0px;
 }
-.education p,
-h3,
-h6 {
+.education h3{
+  color:#00ff00;
+}
+.education p, h6 {
   color: #00ffff;
   font-family: cursive;
 }
@@ -309,8 +306,8 @@ h6 {
   border: none;
   box-shadow: 5px, 5px, 10px, #180a29;
 }
-.card-title:hover {
-  color: #180a29 !important;
+.card-title{
+  color: #00ff00 !important;
 }
 h1 {
   font-family: cursive;
@@ -330,7 +327,7 @@ h1 {
   margin: auto;
   text-align: center;
   align-items: center;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-bottom: 0px;
 }
 .project {
@@ -342,7 +339,7 @@ h1 {
   margin: auto;
   text-align: center;
   width: 100%;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-bottom: 0px;
 }
 /**Contact*/
@@ -401,7 +398,7 @@ a.github {
   margin: auto;
   text-align: center;
   width: 100%;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-top: 0px;
 }
 .footer p {
@@ -415,7 +412,7 @@ a.github {
   margin: auto;
   text-align: center;
   width: 100%;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-bottom: 0px;
 }
 a.gmail {
@@ -436,7 +433,7 @@ a.hackerrank {
   margin: auto;
   text-align: center;
   width: 100%;
-  border: 4px solid #00ffff;
+  border: 4px solid #00ff00;
   border-bottom: 0px;
 }
 .card-example::-webkit-scrollbar {
