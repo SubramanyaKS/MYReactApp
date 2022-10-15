@@ -15,7 +15,7 @@ const NavBar = () => {
         <Navbar.Brand
           style={{
             fontFamily: "Comic Sans MS, Comic Sans, cursive",
-            color: "#00ffff",
+            color: "#00ff0d",
           }}
         >
           &lt;$ubramanya K $/&gt;
