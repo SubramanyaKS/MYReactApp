@@ -15,42 +15,84 @@ const Background = (props) => {
             enable: true, // enabling this will make the canvas fill the entire screen, it's enabled by default
             zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
           },
-          interactivity: {
-            events: {
-              onClick: {
-                enable: true, // enables the click event
-                mode: "push", // adds the particles on click
-              },
-              onHover: {
-                enable: true, // enables the hover event
-                mode: "repulse", // make the particles run away from the cursor
-              },
-            },
-            modes: {
-              push: {
-                quantity: 10, // number of particles to add on click
-              },
-              repulse: {
-                distance: 100, // distance of the particles from the cursor
-              },
-            },
-          },
           particles: {
-            links: {
-              enable: true, // enabling this will make particles linked together
-              distance: 200, // maximum distance for linking the particles
+            color:{
+              value:"#00ddff",
+              animation: {
+                enable: true,
+                speed: 40,
+                sync: true
             },
+            },
+            links: {
+              enable: true,
+              distance: 100,
+              color: "#ff0000",
+              opacity: 0.4,
+              width: 1
+          },
             move: {
               enable: true, // enabling this will make particles move in the canvas
-              speed: { min: 1, max: 5 }, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
+              speed: 3, // using a range in speed value will make particles move in a random speed between min/max values, each particles have its own value, it won't change in time by default
             },
             opacity: {
-              value: { min: 0.3, max: 0.7 }, // using a different opacity, to have some semitransparent effects
+              value: 0.7, // using a different opacity, to have some semitransparent effects
+            },
+            shape: {
+              type: "circle",
             },
             size: {
-              value: { min: 1, max: 3 }, // let's randomize the particles size a bit
-            },
+              value: 10,
+              random: false,
+              animation: {
+                  enable: true,
+                  speed: 20,
+                  minimumValue: 0.1,
+                  sync: false
+              }
           },
+           //// size: {
+            //  value: { min: 1, max: 3 }, // let's randomize the particles size a bit
+            //},
+          },
+          interactivity: {
+            detectsOn: "canvas",
+            events: {
+                onHover: {
+                    enable: true,
+                    mode: "repulse"
+                },
+                onClick: {
+                    enable: true,
+                    mode: "bubble"
+                },
+                resize: true
+            },
+            modes: {
+                grab: {
+                    distance: 400,
+                    links: {
+                        opacity: 1
+                    }
+                },
+                bubble: {
+                    distance: 400,
+                    size: 40,
+                    duration: 2,
+                    opacity: 0.8
+                },
+                repulse: {
+                    distance: 200
+                },
+                push: {
+                    quantity: 4
+                },
+                remove: {
+                    quantity: 2
+                }
+            }
+        },
+        detectRetina: true,
         };
       }, []);
     
