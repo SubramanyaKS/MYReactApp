@@ -1,7 +1,7 @@
 import React from "react";
 import Me from "./img/subbu.jpg";
 import Button from "@restart/ui/esm/Button";
-import Background from './Background';
+import Background from "./Background";
 const About = () => {
   const resume = () => {
     window.open(
@@ -13,21 +13,25 @@ const About = () => {
     <div>
       <section className="about py-5" id="about">
         <div className="container-fluid py-5">
-        <h2 style={{ fontSize:"35px",color:"#00ddff"}}> &nbsp;<b>&lt; About Me. /&gt;</b> </h2>
-         {" "} <br/>{/*<div className="row ">
+          <h2 style={{ fontSize: "35px", color: "#00ddff" }}>
+            {" "}
+            &nbsp;<b>&lt; About Me. /&gt;</b>{" "}
+          </h2>{" "}
+          <br />
+          {/*<div className="row ">
 			 } <div className="col-lg-5 col-md-6">*/}
-
           {/* </div>*/}
           <img className="MeImg" src={Me} alt="me.." />
           <br />
           <div className="col">
-            
             <p> &nbsp;&nbsp; Learner|Programmer|Developer</p>
             <p className="py-5">
               {" "}
               &nbsp; I am{" "}
-              <span className="font-weight-bold"><b>Subramanya K S</b></span>. A
-              curious minded individual who is eager to explore and solve
+              <span className="font-weight-bold">
+                <b>Subramanya K S</b>
+              </span>
+              . A curious minded individual who is eager to explore and solve
               different problems, and, doing so I try out new approaches with
               existing technologies, experiment with emerging tools, constantly
               updating my knowledge, thereby getting better at it each time. I'm
@@ -57,7 +61,6 @@ const About = () => {
         {/*</div>*/}
         <Background id="tsparticles" />
       </section>
-  
     </div>
   );
 };
