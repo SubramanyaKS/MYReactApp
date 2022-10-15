@@ -24,25 +24,25 @@ const NavBar = () => {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Link href="/">
-              <h2>&lt; Home &gt;</h2>
+              <h2>&lt; Home /&gt;</h2>
             </Nav.Link>
             <Nav.Link href="/about">
-              <h2>&lt; About &gt;</h2>
+              <h2>&lt; About /&gt;</h2>
             </Nav.Link>
             <Nav.Link href="/education">
-              <h2>&lt; Education &gt;</h2>
+              <h2>&lt; Education /&gt;</h2>
             </Nav.Link>
             <Nav.Link href="/experience">
-              <h2>&lt; Experience &gt;</h2>
+              <h2>&lt; Experience /&gt;</h2>
             </Nav.Link>
             <Nav.Link href="/project">
-              <h2>&lt; Project &gt;</h2>
+              <h2>&lt; Project /&gt;</h2>
             </Nav.Link>
             <Nav.Link href="/skills">
-              <h2>&lt; Skills &gt;</h2>
+              <h2>&lt; Skills /&gt;</h2>
             </Nav.Link>
             <Nav.Link href="/contact">
-              <h2>&lt; Contact &gt;</h2>
+              <h2>&lt; Contact /&gt;</h2>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
