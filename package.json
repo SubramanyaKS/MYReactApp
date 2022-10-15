@@ -27,6 +27,7 @@
     "semantic-ui-react": "^2.1.2",
     "sweetalert2": "^11.4.7",
     "tsparticles": "^2.3.4",
+    "tsparticles-engine": "^2.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
