@@ -3,7 +3,7 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="footer">
-      <p className="text-center">
+      <p  style={{fontFamily:"cursive"}} className="text-center">
         <b>
           &copy;2022. Designed with{" "}
           <FontAwesomeIcon
@@ -11,7 +11,7 @@ const Footer = () => {
             style={{ color: "red", fontSize: "20px" }}
             className="fa-beat"
           />{" "}
-          by Subramanya K S.
+          by &lt;Subramanya K S./&gt;
         </b>
       </p>
     </div>
