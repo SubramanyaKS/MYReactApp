@@ -1,6 +1,6 @@
 import Particles from "react-tsparticles";
-//import { loadFull } from "tsparticles";
-import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
+import { loadFull } from "tsparticles";
+//import { loadSlim } from "tsparticles-slim"; // loads tsparticles-slim
 import { useCallback, useMemo } from "react";
 
 const Background = (props) => {
@@ -16,18 +16,20 @@ const Background = (props) => {
         zIndex: -1, // this is the z-index value used when the fullScreen is enabled, it's 0 by default
       },
       particles: {
-        color: {
-          value: "#00ddff",
-          animation: {
+        number: {
+          value: 80,
+          density: {
             enable: true,
-            speed: 40,
-            sync: true,
-          },
+            value_area: 800
+          }
         },
-        links: {
+        color: {
+          value: "#00ff00",
+        },
+        line_linked: {
           enable: true,
-          distance: 100,
-          color: "#ff0000",
+          distance: 200,
+          color: "#00ffff",
           opacity: 0.4,
           width: 1,
         },
@@ -41,30 +43,20 @@ const Background = (props) => {
         shape: {
           type: "circle",
         },
-        size: {
-          value: 10,
-          random: false,
-          animation: {
-            enable: true,
-            speed: 20,
-            minimumValue: 0.1,
-            sync: false,
-          },
+         size: {
+         value: { min: 1, max: 3 }, // let's randomize the particles size a bit
         },
-        //// size: {
-        //  value: { min: 1, max: 3 }, // let's randomize the particles size a bit
-        //},
       },
       interactivity: {
         detectsOn: "canvas",
         events: {
           onHover: {
             enable: true,
-            mode: "repulse",
+            mode: "grab",
           },
           onClick: {
             enable: true,
-            mode: "bubble",
+            mode: "push",
           },
           resize: true,
         },
@@ -83,6 +75,7 @@ const Background = (props) => {
           },
           repulse: {
             distance: 200,
+            duration:0.4,
           },
           push: {
             quantity: 4,
@@ -97,9 +90,9 @@ const Background = (props) => {
   }, []);
 
   // useCallback is not mandatory, but it's recommended since this callback can be memoized if static
-  const particlesInit = useCallback((engine) => {
-    loadSlim(engine);
-    // loadFull(engine); // for this sample the slim version is enough, choose whatever you prefer, slim is smaller in size but doesn't have all the plugins and the mouse trail feature
+  const particlesInit = useCallback(async (engine) => {
+    //loadSlim(engine);
+    await loadFull(engine); // for this sample the slim version is enough, choose whatever you prefer, slim is smaller in size but doesn't have all the plugins and the mouse trail feature
   }, []);
 
   // setting an id can be useful for identifying the right particles component, this is useful for multiple instances or reusable components
