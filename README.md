@@ -77,7 +77,7 @@ git push origin xyz
 ---
 ### Demo
 
-`[Portfolio](https://subramanyaks.netlify.app/)`
+[Portfolio](https://subramanyaks.netlify.app/)
 
 
 ---
