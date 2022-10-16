@@ -12,7 +12,7 @@ const Header = () => {
         <div className="row py-5">
           <div className="col-lg-12 col-mg-12 py-5 mr-auto">
             <br></br>
-            <h1 style={{color:"#00ff00"}}>Hi I am </h1>
+            <h1 style={{color:"#00ffdd"}}>Hi I am </h1>
             <h1 style={{color:"#00ff00", fontSize: "50px" }}>SUBRAMANYA K S</h1>
             <br></br>
             <br></br>
@@ -20,9 +20,10 @@ const Header = () => {
               className="typed-text"
               strings={[
                 "Learner",
-                "Web Developer",
-                "Simple Coder",
                 "Developer",
+                "Simple Coder",
+                "MERN Stack Developer",
+                "Open Source Contributor",
               ]}
               typeSpeed={90}
               backSpeed={90}
