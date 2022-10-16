@@ -77,8 +77,9 @@ git push origin xyz
 ---
 ### Demo
 
-[Portfolio](https://subramanyaks.netlify.app/)
+The portfolio is deployed in netlify platform.
 
+[Portfolio](https://subramanyaks.netlify.app/)
 
 ---
 ### License.
