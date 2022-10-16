@@ -17,7 +17,7 @@ const Background = (props) => {
       },
       particles: {
         number: {
-          value: 80,
+          value: 100,
           density: {
             enable: true,
             value_area: 800
@@ -44,15 +44,15 @@ const Background = (props) => {
           type: "circle",
         },
          size: {
-         value: { min: 1, max: 3 }, // let's randomize the particles size a bit
+         value: { min: 3, max: 5 }, // let's randomize the particles size a bit
         },
       },
       interactivity: {
-        detectsOn: "canvas",
+        detectsOn: "window",
         events: {
           onHover: {
             enable: true,
-            mode: "grab",
+            mode: "repulse",
           },
           onClick: {
             enable: true,
