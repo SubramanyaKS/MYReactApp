@@ -12,7 +12,7 @@ export default function Skills() {
             <h2 style={{fontSize:"35px",color:"#00ddff"}}>&lt; Skills /&gt;</h2>
           </Row>
           <br></br>
-          <h4> Web Development </h4>
+          <h4>&lt; Web Development/ &gt;</h4>
           <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
             <Card style={{ width: "6rem" }}>
               <Card.Body>
@@ -30,7 +30,7 @@ export default function Skills() {
               </Card.Body>
             </Card>
           </Row>
-          <h4> Programming Language </h4>
+          <h4>&lt; Programming Language /&gt;</h4>
           <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
             <Card style={{ width: "6rem" }}>
               <Card.Body>
@@ -48,7 +48,7 @@ export default function Skills() {
               </Card.Body>
             </Card>
           </Row>
-          <h4>DataBase</h4>
+          <h4>&lt; DataBase /&gt;</h4>
           <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
             <Card style={{ width: "6rem" }}>
               <Card.Body>
@@ -61,7 +61,7 @@ export default function Skills() {
               </Card.Body>
             </Card>
           </Row>
-          <h4>Web FrameWork</h4>
+          <h4>&lt; Web FrameWork /&gt;</h4>
           <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
             <Card style={{ width: "6rem" }}>
               <Card.Body>
@@ -80,11 +80,16 @@ export default function Skills() {
             </Card>
             <Card style={{ width: "6rem" }}>
               <Card.Body>
+                <Card.Img src="./images/nodejs.png" />
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "6rem" }}>
+              <Card.Body>
                 <Card.Img src="./images/bootstrap.png" />
               </Card.Body>
             </Card>
           </Row>
-          <h4>Tools</h4>
+          <h4>&lt; Tools /&gt;</h4>
           <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
             <Card style={{ width: "6rem" }}>
               <Card.Body>
