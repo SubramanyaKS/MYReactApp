@@ -5,7 +5,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/SubramanyaKS/MYReactApp?style=flat-square)](https://github.com/SubramanyaKS/MYReactApp/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/SubramanyaKS/MYReactApp?style=flat-square)](https://github.com/SubramanyaKS/MYReactApp/issues)
 
-I am Subramanya K S.This is my portfolio using reactJs.
+
+Hello folks.This is my new portfolio using React JS UI development library. React JS uses Virtual DOM, thereby creating web applications faster. You can find my old [website](https://subramanyaks.github.io).
 
 
 ### Technology used.
