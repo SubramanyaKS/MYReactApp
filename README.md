@@ -9,6 +9,13 @@
 Hello folks.This is my new portfolio using React JS UI development library. React JS uses Virtual DOM, thereby creating web applications faster. You can find my old [website](https://subramanyaks.github.io).
 
 
+### Features.
+
+* Responsive UI
+* Animation using tsParticle.
+* Smooth Navigation
+
+
 ### Technology used.
 
 * [<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>](https://reactjs.org/)
