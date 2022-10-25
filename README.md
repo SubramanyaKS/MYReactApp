@@ -94,7 +94,7 @@ The portfolio is deployed in netlify platform.
 [Portfolio](https://subramanyaks.netlify.app/)
 
 ---
-### License.
+### License 📄.
 
 This project is licensed under the GNU General public License v3 License - see the `LICENSE.md` file for details
 
