@@ -7,8 +7,8 @@ I am Subramanya K S.This is my portfolio using reactJs.
 
 ### Technology used.
 
-* [React JS](https://reactjs.org/)
-* [React Bootstrap](https://react-bootstrap.github.io/)
+* [<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>](https://reactjs.org/)
+* [<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>](https://react-bootstrap.github.io/)
 * [React tsParticles](https://github.com/matteobruni/tsparticles)
 
 ---
