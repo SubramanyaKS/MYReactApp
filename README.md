@@ -28,7 +28,7 @@ Hello folks.This is my new portfolio using React JS UI development library. Reac
 
 ### Prerequisits.
 
-* [Node JS](https://nodejs.org/) must be installed before installing the project.
+* [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) must be installed before installing the project.
 * [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) must be installed to clone this project.
 * Operating System used is Windows  (Note: in linux i have not tested it).
 * You may use any editor of your choice (Recommended VS Code).
