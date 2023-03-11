@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Navbar from "./components/NavBar1";
-import About from "./components/About";
+import About from "./pages/About";
 import Header from "./pages/Header";
 import Education from "./components/Education";
 import Skills from "./pages/Skills";
