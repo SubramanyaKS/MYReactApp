@@ -25,7 +25,7 @@ const Contact = () => {
   };
   const sendEmail = (e) => {
     e.preventDefault();
-    var data = details;
+    // var data = details;
   };
   return (
     <section className="contact" id="contact">
