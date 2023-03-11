@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Navbar from "./components/NavBar1";
 import About from "./components/About";
-import Header from "./components/Header";
+import Header from "./pages/Header";
 import Education from "./components/Education";
 import Skills from "./pages/Skills";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
