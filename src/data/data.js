@@ -208,3 +208,31 @@ export const experiencedata=[
     githubLink: "https://github.com/SubramanyaKS/Task1-BasicBankingSystem/",
   }
 ]
+
+export const educationdata =[
+  {
+    id:1,
+    college:"JNN College of Engineering",
+    university:"Visvesvaraya Technological University, Belagavi",
+    course:"Bachelor of Engineering",
+    specification:"Information Science and Engineering",
+    year:"2022"
+  },
+  {
+    id:2,
+    college:"Vikasa Composite P U College, Shivamogga",
+    university:"Department of PU Education Board",
+    course:"Pre-University/12th",
+    specification:null,
+    year:"2018"
+  },
+  {
+    id:3,
+    college:"Sri Ramakrishna Vidyanikethana, Shivamogga",
+    university:"Karnataka State Education and Examination board",
+    course:"SSLC",
+    specification:null,
+    year:"2016"
+  }
+
+]
