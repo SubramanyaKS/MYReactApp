@@ -87,3 +87,117 @@ export const projectsdata =[
           downloadLink:null
         }
 ]
+export const programskills =[
+  {
+    id:1,
+    image:"https://img.icons8.com/color/48/000000/c-programming.png"
+  },
+  {
+    id:2,
+    image:"https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+  },
+  {
+    id:3,
+    image:"https://img.icons8.com/color/48/000000/python--v1.png"
+  }
+]
+
+
+export const databaseskills =[
+  {
+    id:1,
+    image:"https://img.icons8.com/color/60/000000/mysql-logo.png"
+  },
+  {
+    id:2,
+    image:"https://img.icons8.com/color/48/000000/mongodb.png"
+  }
+]
+
+export const webskills =[
+  {
+    id:1,
+    image:"https://img.icons8.com/color/48/000000/css3.png"
+  },
+  {
+    id:2,
+    image:"https://img.icons8.com/color/48/000000/html-5--v1.png"
+  },
+  {
+    id:3,
+    image:"https://img.icons8.com/color/48/000000/javascript--v1.png"
+  },
+  {
+    id:4,
+    image:"https://img.icons8.com/ultraviolet/48/000000/react--v1.png"
+  }
+]
+
+export const ide =[
+  {
+    id:1,
+    image:"https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+  },
+  {
+    id:2,
+    image:"https://img.icons8.com/ios-filled/50/null/java-eclipse.png"
+  }
+]
+
+export const framework =[
+  {
+    id:1,
+    image:"https://img.icons8.com/color/48/000000/nodejs.png"
+  },
+  {
+    id:2,
+    image:"https://img.icons8.com/color/48/000000/bootstrap.png"
+  },
+  {
+    id:3,
+    image:"https://img.icons8.com/windows/64/null/react-native.png"
+
+  },
+  {
+    id:4,
+    image:"https://img.icons8.com/color/48/000000/flask.png"
+  },
+  {
+    id:5,
+    image:"https://img.icons8.com/color/48/000000/django.png"
+  }
+]
+
+export const other=[
+  {
+    id:1,
+    image:"https://img.icons8.com/color/48/000000/git.png"
+  },
+  {
+    id:2,
+  image:"https://img.icons8.com/color/48/000000/android-os.png"
+  },
+  {
+    id:3,
+    image:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png"
+  }
+]
+
+export const experiencedata=[
+  {
+    id:1,
+    title: "Web Development Intern.",
+    subtitle: "Ekathva Innovations Pvt. Ltd.",
+    description: "Done a Project titled 'Django Based REST API development for Ayucare Management'.One month online industry level internship helped me to gain knowledge about recent technology, ideologies and aesthetics of the company.Learnt about Django and REST API",
+    image: "./images/ekatvaI.jpg",
+    githubLink: "https://github.com/SubramanyaKS/AyuCareManagement/",
+  },
+  {
+    id:2,
+    title: "Web Development and Design Intern .",
+    subtitle: "The Sparks Foundation.",
+    description: "My First Internship helped me to gain some knowledge on web development. Worked on the project title 'Basic Banking System' which is demonstrate the basic banking operation.",
+    image: "./images/Thesparks.jpg",
+    githubLink: "https://github.com/SubramanyaKS/Task1-BasicBankingSystem/",
+  }
+]
