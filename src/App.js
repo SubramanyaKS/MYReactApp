@@ -7,7 +7,7 @@ import Header from "./pages/Header";
 import Education from "./components/Education";
 import Skills from "./pages/Skills";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contact from "./components/Contact";
+import Contact from "./pages/Contact";
 import Spinner1 from "./components/Loader";
 import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
