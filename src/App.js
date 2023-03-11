@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Navbar from "./components/NavBar1";
+import Navbar from "./components/NavBar";
 import About from "./pages/About";
 import Header from "./pages/Header";
 import Education from "./pages/Education";
