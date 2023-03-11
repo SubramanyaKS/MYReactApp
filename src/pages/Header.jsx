@@ -3,7 +3,7 @@ import Typed from "react-typed";
 import "bootstrap/dist/css/bootstrap.min.css";
 //import Particles from "react-tsparticles";
 //import particlesConfig from "./Particle-config";
-import Background from './Background';
+import Background from '../components/Background';
 const Header = () => {
   return (
     <section className="main py-5">

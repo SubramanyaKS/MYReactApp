@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import emailjs from 'emailjs-com';//
-import Background from "./Background";
+import Background from "../components/Background";
 import {
   faGithub,
   faYoutube,
@@ -25,7 +25,7 @@ const Contact = () => {
   };
   const sendEmail = (e) => {
     e.preventDefault();
-    var data = details;
+    // var data = details;
   };
   return (
     <section className="contact" id="contact">
