@@ -1,6 +1,6 @@
 # My New Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e9ea48ff-8d9e-4364-88a5-78292a8bcaf9/deploy-status)](https://app.netlify.com/sites/subramanyaks/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f16a267e-7689-4a90-b42c-8becaad56141/deploy-status)](https://app.netlify.com/sites/subramanyaks/deploys)
 [![GitHub license](https://img.shields.io/github/license/SubramanyaKS/MYReactApp?style=for-the-badge)](https://github.com/SubramanyaKS/MYReactApp/blob/main/LICENCE)
 [![GitHub stars](https://img.shields.io/github/stars/SubramanyaKS/MYReactApp?style=for-the-badge)](https://github.com/SubramanyaKS/MYReactApp/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/SubramanyaKS/MYReactApp?style=for-the-badge)](https://github.com/SubramanyaKS/MYReactApp/issues)
