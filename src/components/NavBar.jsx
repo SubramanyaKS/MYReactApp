@@ -10,6 +10,7 @@ const NavBar = () => {
       expand="lg"
       bg="dark"
       variant="dark"
+      className="shadow-lg p-3 mb-5 bg-dark "
     >
       <Container>
         <Navbar.Brand
