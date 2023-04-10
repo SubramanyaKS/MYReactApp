@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState , useRef} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import emailjs from 'emailjs-com';//
+import emailjs from 'emailjs-com';//
+// import emailjs from '@emailjs/browser';
 import Background from "../components/Background";
 import {
   faGithub,
@@ -13,6 +14,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
+  const form = useRef();
   const [details, setDetails] = useState({
     email: "",
     name: "",
@@ -21,11 +23,20 @@ const Contact = () => {
   });
 
   const handleChange = (event) => {
+    console.log(event.target.value);
     setDetails({ ...details, [event.target.name]: event.target.value });
   };
   const sendEmail = (e) => {
     e.preventDefault();
     // var data = details;
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
+    .then((result) => {
+        console.log(result.text);
+        console.log(form.current);
+    }, (error) => {
+        console.log(error.text);
+    });
+    e.target.reset();
   };
   return (
     <section className="contact" id="contact">
@@ -35,15 +46,15 @@ const Contact = () => {
           &lt; Contact /&gt;
         </h2>
         <div className="container">
-          <form onSubmit={sendEmail}>
-            <p style={{ color: "red" }}>Form is temporarily disabled</p>
+          <form ref={form} onSubmit={sendEmail}>
+            {/* <p style={{ color: "red" }}>Form is temporarily disabled</p> */}
             <div className="row pt-5 mx-auto">
               <div className="col-8 form-group mx-auto">
                 <input
                   type="text"
                   name="name"
-                  value={details.name}
-                  onClick={handleChange}
+                  // value={details.name}
+                  // onChange={handleChange}
                   className="form-control"
                   placeholder="Name"
                 />
@@ -52,8 +63,8 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  value={details.email}
-                  onClick={handleChange}
+                  // value={details.email}
+                  // onChange={handleChange}
                   className="form-control"
                   placeholder="Email Address"
                 />
@@ -61,9 +72,9 @@ const Contact = () => {
               <div className="col-8 form-group pt-2 mx-auto">
                 <input
                   name="subject"
-                  value={details.subject}
+                  // value={details.subject}
                   type="text"
-                  onClick={handleChange}
+                  // onChange={handleChange}
                   className="form-control"
                   placeholder="Subject"
                 />
@@ -71,8 +82,8 @@ const Contact = () => {
               <div className="col-8 form-group pt-2 mx-auto">
                 <textarea
                   name="body"
-                  value={details.body}
-                  onClick={handleChange}
+                  // value={details.body}
+                  // onChange={handleChange}
                   className="form-control"
                   id=""
                   cols="30"
