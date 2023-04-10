@@ -187,7 +187,7 @@ export const aboutdetails ={
   name:"Subramanya KS",
   image:"./images/subbu.png",
   tagline:"Learner|Programmer|Developer",
-  description:"A curious minded individual who is eager to explore and solve different problems, and, doing so I try out new approaches with existing technologies, experiment with emerging tools, constantly updating my knowledge, thereby getting better at it each time. I'm passionate about Web Development, Android App Development. Accordingly, I'm equipped with HTML, CSS, JavaScript, SQL skills and proficient in OOP concepts and languages like Java and C. Utilizing all of these skills, I have completed several projects regarding the same and thus am aware of the real world practical constraints that is usually encountered while solving problems. I also actively interact with the open source community, contributing to it and also trying out new stuff."
+  description:" A frontend developer based in Karnataka,India. I am currently working in Infosys. I passionate about upgrading my skills and also likes to get my hand dirty on new technology. I start my day with motive on being better then previous day. Learn new skills that helped me to do better work.I'm constantly open to new ideas and always look to reach out to others, share and discuss ideas with them, thereby learn and also help others grow too"
 }
 
 export const experiencedata=[
