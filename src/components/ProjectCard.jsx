@@ -15,7 +15,7 @@ const ProjectCard = ({data}) => {
                 <Card.Body>
                   <Card.Title>{data.title}</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
-                    {data.Subtitle}
+                    {data.subtitle}
                   </Card.Subtitle>
                   <Card.Text>
                     {data.description}

@@ -300,9 +300,9 @@ h2 {
   -moz-transition: all 0.3s ease-in;
 }
 .card:hover {
-  background-color: #00ff00 !important;
+  background-color: #00ffff !important;
   transition: 0.5s;
-  color: #00ffff !important;
+  color: #180a29 !important;
   border-radius: 10px;
   border: none;
   box-shadow: 5px, 5px, 10px, #180a29;
@@ -331,7 +331,7 @@ h2 {
   box-shadow: 5px, 5px, 10px, #180a29;
 }
 .card-text{
-  color:#00ffff !important;
+  color:#00ff00 !important;
 }
 .card-title{
   color: #00ff00 !important;
