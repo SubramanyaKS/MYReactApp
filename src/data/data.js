@@ -140,7 +140,7 @@ export const ide =[
   },
   {
     id:2,
-    image:"https://img.icons8.com/ios-filled/50/null/java-eclipse.png"
+    image:"https://img.icons8.com/office/40/null/java-eclipse.png"
   }
 ]
 
@@ -155,16 +155,16 @@ export const framework =[
   },
   {
     id:3,
-    image:"https://img.icons8.com/windows/64/null/react-native.png"
+    image:"https://img.icons8.com/nolan/64/react-native.png"
 
   },
   {
     id:4,
-    image:"https://img.icons8.com/color/48/000000/flask.png"
+    image:"https://img.icons8.com/nolan/64/flask.png"
   },
   {
     id:5,
-    image:"https://img.icons8.com/color/48/000000/django.png"
+    image:"https://img.icons8.com/color/48/ffffff/django.png"
   }
 ]
 
