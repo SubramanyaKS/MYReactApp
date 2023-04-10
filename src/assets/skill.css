@@ -1,0 +1,9 @@
+.card:hover{
+    background-color:#000 !important;
+    color:"#fff"!important;
+    transform: scale(1.02) !important;
+  overflow: hidden !important;
+  /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
+  box-shadow: 0 4px 5px 3px #00ff00 !important;
+  /* rgba(117, 0, 250, 1) */
+}
