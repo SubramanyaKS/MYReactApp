@@ -1,4 +1,4 @@
-import React, { useState , useRef} from "react";
+import React, { useRef} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import emailjs from 'emailjs-com';//
 // import emailjs from '@emailjs/browser';
@@ -15,17 +15,17 @@ import {
 
 const Contact = () => {
   const form = useRef();
-  const [details, setDetails] = useState({
-    email: "",
-    name: "",
-    subject: "",
-    body: "",
-  });
+  // const [details, setDetails] = useState({
+  //   email: "",
+  //   name: "",
+  //   subject: "",
+  //   body: "",
+  // });
 
-  const handleChange = (event) => {
-    console.log(event.target.value);
-    setDetails({ ...details, [event.target.name]: event.target.value });
-  };
+  // const handleChange = (event) => {
+  //   console.log(event.target.value);
+  //   setDetails({ ...details, [event.target.name]: event.target.value });
+  // };
   const sendEmail = (e) => {
     e.preventDefault();
     // var data = details;
