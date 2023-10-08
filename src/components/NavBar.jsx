@@ -1,6 +1,7 @@
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -24,27 +25,27 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="/">
+            <Link className="navlink" to="/">
               <h2>&lt; Home /&gt;</h2>
-            </Nav.Link>
-            <Nav.Link href="/about">
+            </Link>
+            <Link className="navlink" to="/about">
               <h2>&lt; About /&gt;</h2>
-            </Nav.Link>
-            <Nav.Link href="/education">
+            </Link>
+            <Link className="navlink" to="/education">
               <h2>&lt; Education /&gt;</h2>
-            </Nav.Link>
-            <Nav.Link href="/experience">
+            </Link>
+            <Link className="navlink" to="/experience">
               <h2>&lt; Experience /&gt;</h2>
-            </Nav.Link>
-            <Nav.Link href="/project">
+            </Link>
+            <Link className="navlink" to="/project">
               <h2>&lt; Project /&gt;</h2>
-            </Nav.Link>
-            <Nav.Link href="/skills">
+            </Link>
+            <Link className="navlink" to="/skills">
               <h2>&lt; Skills /&gt;</h2>
-            </Nav.Link>
-            <Nav.Link href="/contact">
+            </Link>
+            <Link className="navlink" to="/contact">
               <h2>&lt; Contact /&gt;</h2>
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
