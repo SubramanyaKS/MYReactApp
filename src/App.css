@@ -226,6 +226,13 @@ h2{
   z-index: 1;
 }
 
+.navlink{
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 2px;
+  padding: 5px;
+}
+
 .typed-text {
   font-size: 30px;
   color: #00ffff;
