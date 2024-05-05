@@ -14,33 +14,40 @@ const About = () => {
   return (
     <div>
       <section className="about py-5" id="about">
-        <div className="container-fluid py-5">
-          <h2 style={{ fontSize: "35px", color: "#00ddff" }}>
-            {" "}
-            &nbsp;<b>&lt; About Me. /&gt;</b>{" "}
-          </h2>{" "}
-          <br />
-          <img className="MeImg" src={aboutdetails.image} alt="me.." />
-          <br />
-          <div className="col">
-            <p  style={{color:"#00ff00"}}> &nbsp;&nbsp; {aboutdetails.tagline}</p>
-            <p className="py-5">
-              {" "}
-              &nbsp; I am{" "}
-              <span style={{color:"#00ff00"}} className="font-weight-bold">
-                <b>{aboutdetails.name}</b>
-              </span>
-              {aboutdetails.description}
-            </p>
-          </div>
-          <Button
-            className="resume"
-            style={{ backgroundColor: "#00ff00" }}
+        <div className="container-fluid ">
+          
+         <div  class="row">
+         <h2 style={{ fontSize: "35px", color: "#00ddff" }} className="mb-3">
+            
+            &nbsp;<b>&lt; About Me. /&gt;</b>
+          </h2>
+           <div class="col">
+           
+           <img className="MeImg" src={aboutdetails.image} alt="me.." />
+           <br />
+           </div>
+           <div className="col">
+           
+             {/* <p  style={{color:"#00ff00"}}> &nbsp;&nbsp; {aboutdetails.tagline}</p> */}
+             <p className="py-5">
+               {" "}
+               &nbsp; I am{" "}
+               <span style={{color:"#00ff00"}} className="font-weight-bold">
+                 <b>{aboutdetails.name}</b>
+               </span>
+               {aboutdetails.description}
+             </p>
+             <Button
+            className="resume rounded-pill"
+            style={{  }}
             variant="primary"
             onClick={resume}
           >
             Download Resume
           </Button>
+           </div>
+         </div>
+          
         </div>
 
         {/*</div>*/}
