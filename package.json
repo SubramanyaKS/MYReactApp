@@ -3,33 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^3.12.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
     "@fortawesome/free-brands-svg-icons": "^6.1.0",
+    "@fortawesome/free-regular-svg-icons": "^6.1.0",
     "@fortawesome/free-solid-svg-icons": "^6.1.0",
     "@fortawesome/react-fontawesome": "^0.1.17",
-    "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/react": "^3.0.0",
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.1.3",
-    "emailjs-com": "^3.2.0",
     "font-awesome": "^4.7.0",
+    "framer-motion": "^11.1.9",
     "fs": "0.0.1-security",
-    "nodemon": "^2.0.20",
-    "react": "^17.0.2",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.5.0",
-    "react-dom": "^17.0.2",
+    "react-dom": "^18.3.1",
     "react-loader-spinner": "^5.3.4",
-    "react-particles-js": "^3.6.0",
-    "react-router-dom": "^6.2.2",
+    "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.0",
-    "react-tsparticles": "^2.3.3",
-    "react-typed": "^1.2.0",
-    "semantic-ui-react": "^2.1.2",
-    "sweetalert2": "^11.4.7",
-    "tsparticles": "^2.3.4",
+    "react-typed": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -56,10 +51,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23"
   }
 }
