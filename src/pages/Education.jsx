@@ -1,28 +1,34 @@
-import React from 'react'
-import Background from '../components/Background';
-import { Col, Row } from 'react-bootstrap';
-import EducationCard from '../components/EducationCard';
-import { educationdata } from '../data/data';
-const Education = () => {
-  return (
-    <section className="education py-5" id="education">
-        <div className="container-fluid">
-        <Row>
-        <h1 className="mb-5" style={{ color: "#00ddff" }}>
-              {" "}
-              &nbsp; &lt; Education Details. /&gt;
-        </h1>
-        <Col>
-        {educationdata.map((item)=>
-             <EducationCard data={item}/>
-        )}
-           
-        </Col>
-        </Row>
-        </div>
-        <Background id="tsparticles"/>
-    </section>
-  )
-}
+import React from "react";
+import EducationCard from "../components/EducationCard";
+import { Container } from "react-bootstrap";
+import { educationdata } from "../data/data";
+import Heading from "../components/common/Heading";
 
-export default Education
+const Education1 = () => {
+  return (
+    <section className="education-content" id="education">
+      <Heading title="Education" />
+      <Container>
+        <div className="timeline">
+          {educationdata.map((data, i) => (
+            <div
+              className={`container-e ${
+                i % 2 === 0 ? "left-container" : "right-container"
+              }`}
+            >
+              <div className="timeline-bullet"></div>
+              <EducationCard data={data} />
+              <span
+                className={
+                  i % 2 === 0 ? "left-container-arrow" : "right-container-arrow"
+                }
+              ></span>
+            </div>
+          ))}
+        </div>
+      </Container>
+    </section>
+  );
+};
+
+export default Education1;
