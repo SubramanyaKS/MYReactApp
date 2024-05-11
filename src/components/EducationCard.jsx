@@ -1,21 +1,27 @@
 import React from 'react'
-import { Card } from 'react-bootstrap';
-
+import Card from 'react-bootstrap/Card';
 
 const EducationCard = ({data}) => {
   return (
-    <Card style={{backgroundColor:'transparent'}}>
-         <Card.Body>
-        <Card.Title>{data.college}</Card.Title>
-        <Card.Subtitle>{data.university}</Card.Subtitle>
-        <Card.Text className="mt-5">
-         {data.course}
+    <Card  className="shadow-lg p-3 rounded mb-5">      
+      <Card.Body>
+        <Card.Title><b>{data.college}</b></Card.Title>
+        <Card.Subtitle className='text-secondary'>{data.university}</Card.Subtitle>
+        <Card.Text className="course text-light mb-0 mt-3">
+          {data.course}
         </Card.Text>
-        {data.specification?<Card.Text>{data.specification}</Card.Text>:null}
+        <Card.Text className="specialization mb-2 mt-0">
+          {data.specialization}
+        </Card.Text>
+        <Card.Text className="year mb-3">
+          {data.year}
+        </Card.Text>
+        {/* <Card.Text className="grade mb-1">
+            Grade
+        </Card.Text> */}
       </Card.Body>
-      <Card.Footer>{data.year}</Card.Footer>
     </Card>
   )
 }
 
-export default EducationCard;
+export default EducationCard
