@@ -1,59 +1,61 @@
 import React from "react";
-// import Me from "./img/subbu.jpg";
-import Button from "@restart/ui/esm/Button";
+import { Container, Row, Col} from "react-bootstrap";
 import { aboutdetails } from "../data/data";
-import Background from "../components/Background";
+// import Background from "../components/Background";
+import Heading from "../components/common/Heading";
+import splitWords from "../utils/splitWords";
+import {motion} from 'framer-motion';
 
 const About = () => {
+  const description = splitWords(aboutdetails.description);
+
+  const wordVarients = {
+    hidden:{opacity:0},
+    reveal:{opacity:1},
+  }
+
   const resume = () => {
     window.open(
-      "https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view",
+      aboutdetails.resumeLink,
       "_blank"
     );
   };
   return (
-    <div>
+    <>
       <section className="about py-5" id="about">
-        <div className="container-fluid ">
-          
-         <div  class="row">
-         <h2 style={{ fontSize: "35px", color: "#00ddff" }} className="mb-3">
-            
-            &nbsp;<b>&lt; About Me. /&gt;</b>
-          </h2>
-           <div class="col">
-           
-           <img className="MeImg" src={aboutdetails.image} alt="me.." />
-           <br />
-           </div>
-           <div className="col">
-           
-             {/* <p  style={{color:"#00ff00"}}> &nbsp;&nbsp; {aboutdetails.tagline}</p> */}
-             <p className="py-5">
-               {" "}
-               &nbsp; I am{" "}
-               <span style={{color:"#00ff00"}} className="font-weight-bold">
-                 <b>{aboutdetails.name}</b>
-               </span>
-               {aboutdetails.description}
-             </p>
-             <Button
-            className="resume rounded-pill"
-            style={{  }}
-            variant="primary"
-            onClick={resume}
-          >
-            Download Resume
-          </Button>
-           </div>
-         </div>
-          
-        </div>
+        <Heading title="About Me." />
+        <Container fluid>
+          <Row>
+            <Col>
+              <img className="MeImg" src={aboutdetails.image} alt="me.." />
+              <br />
+            </Col>
+            <Col>
+              <motion.p initial="hidden" whileInView="reveal" transition={{staggerChildren:0.02}} className="py-5">
+                {" "}
+                I am{" "}
+                <span style={{ color: "#00ff00" }} className="font-weight-bold">
+                  <b>{aboutdetails.name}, </b>
+                </span>
+                {description.map((ch)=>(
+<motion.span key={ch} transition={{duration:0.5}} variants={wordVarients}>
+  {ch}
+</motion.span>
 
-        {/*</div>*/}
-        <Background id="tsparticles" />
+                ))}
+              </motion.p>
+              <button
+                className="resume rounded-pill"
+                onClick={resume}
+              >
+                Resume
+              </button>
+            </Col>
+          </Row>
+        </Container>
+        {/* <Background id="tsparticles" /> */}
       </section>
-    </div>
+    </>
   );
 };
 export default About;
