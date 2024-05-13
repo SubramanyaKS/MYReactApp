@@ -19,9 +19,11 @@ function ContactForm() {
     // var data = details;
     emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, templateParams, process.env.REACT_APP_PUBLIC_KEY)
     .then((result) => {
-        console.log("Result",result.text);
+        // console.log("Result",result.text);
+        alert("Thank You")
     }, (error) => {
-        console.log("Error",error);
+        // console.log("Error",error);
+        alert("Error")
     });
     e.target.reset();
   };
@@ -34,9 +36,9 @@ function ContactForm() {
   }
 
   return (
-    <Form onSubmit={sendEmail} className="m-5 p-3 border contact-form">
+    <Form onSubmit={sendEmail} className="m-5 p-3 contact-form">
       <h5 className='text-white'>Get in Touch</h5>
-      <Form.Group className="m-3" controlId="formName">
+      <Form.Group className="m-3 " controlId="formName">
         <Form.Control name="name" value={formData.name} onChange={(e)=>handleChange("name",e.target.value)} className="text-white bg-dark" type="text" placeholder="Your Name" />
       </Form.Group>
       <Form.Group className="m-3" controlId="formBasicEmail">
