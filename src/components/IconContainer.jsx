@@ -5,7 +5,8 @@ const IconContainer = ({containerClass,href,icon,className,iconClass}) => {
     <div className={`${containerClass} rounded-circle`}>
         <a
           href={href}
-          className={className}
+          target='_blank'
+          className={className} rel="noreferrer"
         >
           <FontAwesomeIcon icon={icon} className={iconClass} size="2x" />
         </a>
