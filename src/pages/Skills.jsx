@@ -1,16 +1,15 @@
 import React from 'react'
-import { Container, Row } from "react-bootstrap";
-import Background from '../components/Background';
+import { Container} from "react-bootstrap";
+// import Background from '../components/Background';
 import { programskills, databaseskills, webskills, ide, framework, other } from '../data/data';
 import SkillsRow from '../components/SkillsRow';
+import Heading from '../components/common/Heading';
 
 const Skills = () => {
   return (
     <section className="skills py-5">
+      <Heading title=" Skills"/>
          <Container fluid className="App py-2 overflow-hidden">
-          <Row className="justify-content-center mb-5">
-            <h2 style={{fontSize:"35px",color:"#00ddff"}}>&lt; Skills /&gt;</h2>
-          </Row>
           <h4>&lt; Programming Language &gt;</h4>
             <SkillsRow skill={programskills}/>
             <h4>&lt; Database &gt;</h4>
@@ -24,7 +23,7 @@ const Skills = () => {
             <h4>&lt; Others &gt;</h4>
             <SkillsRow skill={other} />
           </Container>
-          <Background id="tsparticles"/>
+          {/* <Background id="tsparticles"/> */}
     </section>
   )
 }
