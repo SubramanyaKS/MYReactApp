@@ -13,9 +13,6 @@ const Reveal = ({children,width="fit-content"}) => {
         slideControl.start("visible");
 
       }
-      // else{
-      //   console.log(isInView);
-      // }
       
     }, [isInView])
     
