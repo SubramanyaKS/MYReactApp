@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillPill = ({text}) => {
   return (
-    <div className='bg-primary p-2 rounded-pill'>
+    <div className=' px-2 rounded-pill' style={{backgroundColor:"#0fd"}}>
       {text}
     </div>
   )
