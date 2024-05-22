@@ -1,28 +1,25 @@
-import React from 'react'
-import { experiencedata } from '../data/data';
-import ProjectCard from '../components/ProjectCard';
-import Background from '../components/Background';
+import React from "react";
+import { experiencedata } from "../data/data";
+import { Col, Container, Row } from "react-bootstrap";
+import ProjectCard from "../components/ProjectCard";
+// import Background from "../components/Background";
+import Heading from "../components/common/Heading";
 const Experience = () => {
   return (
     <section className="project py-5" id="project">
-      <div className="container-fluid ">
-          <h1 className="text-center mb-5" style={{ color: "#00ddff" }}>
-            {" "}
-            &nbsp;&lt; Experience. /&gt;
-          </h1>
-          <div className="row row-cols-1 row-cols-md-2 row-eq-height">
-            
-      {experiencedata.map((project) => (
-        <div className="col mb-4  d-flex align-items-stretch">
-           <ProjectCard data={project} />
-           </div> 
+      <Heading title="Experience" />
+      <Container fluid className="py-3">
+        <Row className="row-cols-1 row-cols-md-2 row-eq-height">
+          {experiencedata.map((project) => (
+            <Col className=" mb-4  d-flex align-items-stretch">
+              <ProjectCard data={project} />
+            </Col>
           ))}
-     
-      </div>
-      </div>
-      <Background id="tsparticles" />
+        </Row>
+      </Container>
+      {/* <Background id="tsparticles" /> */}
     </section>
-  )
-}
+  );
+};
 
 export default Experience;
