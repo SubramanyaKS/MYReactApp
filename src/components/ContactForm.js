@@ -21,6 +21,7 @@ function ContactForm() {
     .then((result) => {
         // console.log("Result",result.text);
         alert("Thank You")
+        setFormData({name:"",subject:"",email:"",message:""})
     }, (error) => {
         // console.log("Error",error);
         alert("Error")
