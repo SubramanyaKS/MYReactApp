@@ -2,8 +2,9 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const IconContainer = ({containerClass,href,icon,className,iconClass}) => {
   return (
-    <div className={`${containerClass} rounded-circle`}>
+    <div  className={`${containerClass} pt-2 pb-2 shad rounded-circle`}>
         <a
+        
           href={href}
             target='_blank'
           className={className} rel="noreferrer"
