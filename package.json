@@ -20,6 +20,7 @@
     "fs": "0.0.1-security",
     "react": "^18.3.1",
     "react-bootstrap": "^2.5.0",
+    "react-chatbot-kit": "^2.2.2",
     "react-dom": "^18.3.1",
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.23.0",
