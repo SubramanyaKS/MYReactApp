@@ -5,6 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 // import Background from "../components/Background";
 import Heading from "../components/common/Heading";
 const Experience = () => {
+  console.log(experiencedata)
   return (
     <section className="project py-5" id="project">
       <Heading title="Experience" />
@@ -12,7 +13,9 @@ const Experience = () => {
         <Row className="row-cols-1 row-cols-md-2 row-eq-height">
           {experiencedata.map((project) => (
             <Col className=" mb-4  d-flex align-items-stretch">
-              <ProjectCard data={project} />
+             <div key={project.id}>
+                <ProjectCard data={project} />
+             </div>
             </Col>
           ))}
         </Row>
