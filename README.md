@@ -104,6 +104,7 @@ This project is licensed under the GNU General public License v3 License - see t
 
 
 ---
+**Note:Particle effect has been removed**
 **Note: For Particle Effect please refer:**             
 [This tutorial](https://www.youtube.com/watch?v=uuohRbc18zE)
 
