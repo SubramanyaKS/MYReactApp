@@ -1,4 +1,4 @@
-# My New Portfolio
+# My React Portfolio
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f16a267e-7689-4a90-b42c-8becaad56141/deploy-status)](https://app.netlify.com/sites/subramanyaks/deploys)
 [![GitHub license](https://img.shields.io/github/license/SubramanyaKS/MYReactApp?style=for-the-badge)](https://github.com/SubramanyaKS/MYReactApp/blob/main/LICENCE)
@@ -8,7 +8,7 @@
 ![Lines of Codes](https://img.shields.io/tokei/lines/github.com/SubramanyaKS/MYReactApp?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SubramanyaKS/MYReactApp?style=for-the-badge)
 
-<img src="https://github.com/SubramanyaKS/MYReactApp/blob/main/public/images/preview.png" alt ="preview"/>
+<!--<img src="https://github.com/SubramanyaKS/MYReactApp/blob/main/public/images/preview.png" alt ="preview"/>-->
 
 Hello folks.This is my new portfolio using React JS UI development library. React JS uses Virtual DOM, thereby creating web applications faster. You can find my old [website](https://subramanyaks.github.io).
 
@@ -104,6 +104,7 @@ This project is licensed under the GNU General public License v3 License - see t
 
 
 ---
+**Note:Particle effect has been removed. if you want just import the component at your desired page**
 **Note: For Particle Effect please refer:**             
 [This tutorial](https://www.youtube.com/watch?v=uuohRbc18zE)
 
