@@ -311,7 +311,7 @@ h2 {
 .box{
   box-shadow: 5px 5px 15px #00ffff !important;
 }
-.card {
+.project .card,.skills .card, .experience .card {
   /* background-color: #180a29 !important; */
   background-color: #000000 !important ;
   color: #00ffff !important;
@@ -323,7 +323,7 @@ h2 {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
 }
-.card:hover {
+.project .card:hover,.skills .card:hover, .experience .card:hover {
   background-color: #00ffff !important;
   transition: 0.5s;
   color: #180a29 !important;
@@ -746,7 +746,218 @@ a.hackerrank {
   box-shadow: 0 0 5px 5px #333;
 }
 
+/* chatbot */
+
+.fixed-div {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.fixed-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.component {
+  position: fixed;
+  bottom: 80px; /* Adjust this value to position the chatbot above the fixed-div */
+  right: 50px;
+  width: 90%;
+  max-width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 1000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.component:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .component {
+    width: 90%;
+    height: auto;
+    bottom: 70px;
+    right: 20%;
+    padding: 10px;
+  }
+}
+
+/* .fixed-div {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  box-shadow: 0 0 3px 3px #0df;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.component {
+  position: absolute;
+  bottom: 100px; 
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+} */
+.hidden {
+  display: none;
+}
+/* .project-chatbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.projectchatbot-card {
+  background-color: #31aafa !important;
+  color: #000 !important;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.project-chatbot .card:hover {
+  background-color: #31aafa !important;
+   color: #000 !important;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.projectchatbot-content {
+  padding: 5px;
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectchatbot-content:last-child {
+  border-bottom: none;
+}
+
+.projectchatbot-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.projectchatbot-subtitle {
+  font-size: 14px;
+  margin: 0;
+}
+.moredetails{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  font-size: 14px;
+}
+.chatbot-link {
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.chatbot-link:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .projectchatbot-card {
+    padding: 10px;
+  }
+
+  .projectchatbot-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projectchatbot-title {
+    font-size: 14px;
+  }
+
+  .chatbot-link {
+    font-size: 12px;
+  }
+}
+
+.chatbot-container .card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+  border: none;
+}
+.chatbot-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chatbot-header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.chatbot-content {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .chatbot-card {
+    width: 90%;
+  }
+} */
+
+/* .project-chatbot .card{
+  background-color: rgb(49, 170, 250) !important;
+  color: #000 !important;
+  padding: 5%;
+  box-shadow: 0 0 4px 4px gainsboro !important;
+}
+.projectchatbot-content .chatbot-link{
+  
+  color:#000 !important;
+  font-size: 14 !important;
+}
+.projectchatbot-content{
+  padding: 5;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  border:1px solid black
+}
+.project-chatbot .card:hover {
+   background-color: rgb(49, 170, 250) !important;
+  color: #000 !important;
+  padding: 5%;
+  box-shadow: 0 0 4px 4px gainsboro !important;
+
+} */
+
 .shad{
   box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
-
 }

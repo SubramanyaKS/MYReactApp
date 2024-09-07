@@ -9,6 +9,7 @@ import Contact from "../pages/Contact";
 import Footer from "../components/Footer";
 import Projects from "../pages/Projects";
 import Experience from "../pages/Experience";
+import ChatBotContiner from '../chatbot/components/ChatBotContainer';
 
 const Routing = () => {
   return (
@@ -23,6 +24,7 @@ const Routing = () => {
          <Route exact path="/skills" element={<Skills />} />
          <Route exact path="/contact" element={<Contact />} />
        </Routes>
+       <ChatBotContiner/>
        <Footer />
      </Router>
   )

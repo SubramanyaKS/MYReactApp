@@ -291,6 +291,10 @@ export const socialIcon=[
   }
 
 ]
+export const chatbootdata={
+    about:"A frontend developer based in Karnataka,India. Passionate about upgrading my skills",
+    skills:"React,React Native,Python,Node,Mongo DB, Next JS,MYSQL,flask etc.."
+}
 
 export const headerdata={
   image:"./images/avatar.png",
