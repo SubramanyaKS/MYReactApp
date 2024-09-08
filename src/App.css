@@ -16,12 +16,6 @@ body {
 .html,
 body {
   width: 100%;
-  /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply; */
-  /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
- background-blend-mode: multiply; */
-  /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
-  /* background-image: linear-gradient(to top, #09203f 0%, #537895 100%); */
   background: linear-gradient(var(--primary),var(--secondary)) !important;
   height: 100%;
   margin: 0;
@@ -294,7 +288,7 @@ h2 {
 .box{
   box-shadow: 5px 5px 15px var(--color2) !important;
 }
-.card {
+.project .card,.skills .card, .experience .card {
   /* background-color: #180a29 !important; */
   background-color: var(--primary)!important ;
   color: var(--color2) !important;
@@ -306,14 +300,16 @@ h2 {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
 }
-.card:hover {
-  background-color: var(--color2) !important;
+
+.project .card:hover,.skills .card:hover, .experience .card:hover {
+  /* background-color: var(--color2) !important; */
   transition: 0.5s;
   color: #180a29 !important;
   border-radius: 10px;
   border: none;
   box-shadow: 5px, 5px, 10px, #180a29;
 }
+
 .education .card {
   /* background-color: #180a29 !important; */
   background-color: var(--primary) ;
