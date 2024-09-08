@@ -28,7 +28,7 @@ const Projects = () => {
         <button onClick={()=>window.open(
       "https://github.com/SubramanyaKS?tab=repositories",
       "_blank"
-    )} class="resume rounded-pill">View More</button>
+    )} className="resume rounded-pill">View More</button>
       </Container>
       {/* <Background id="tsparticles" /> */}
     </section>
