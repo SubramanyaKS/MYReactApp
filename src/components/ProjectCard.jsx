@@ -41,13 +41,13 @@ const ProjectCard = ({data}) => {
                   {isHovered ?<> <Card.Text>
                     {data.description}
                   </Card.Text>
-                  <div className='d-flex'>
+          {data.techStack ?<div className='d-flex'>
                   {data.techStack.map((tech,i)=>(
                     <div key={i} className='m-1'>
                       <SkillPill text={tech}/>
                     </div>
                   ))}
-                  </div>
+          </div> : null}
                   <div className="social-buttons mt-5">
                     <a href={data.githubLink}>
                       {" "}
