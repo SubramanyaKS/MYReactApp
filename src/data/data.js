@@ -7,6 +7,7 @@ import {
   faGoogle,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import { links, skillImage } from "../utils/constant";
 
 export const projectsdata =[
     {
@@ -120,15 +121,15 @@ export const projectsdata =[
 export const programskills =[
   {
     id:1,
-    image:"https://img.icons8.com/color/48/000000/c-programming.png"
+    image:skillImage.c
   },
   {
     id:2,
-    image:"https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    image:skillImage.java
   },
   {
     id:3,
-    image:"https://img.icons8.com/color/48/000000/python--v1.png"
+    image:skillImage.python
   }
 ]
 
@@ -136,87 +137,87 @@ export const programskills =[
 export const databaseskills =[
   {
     id:1,
-    image:"https://img.icons8.com/color/60/000000/mysql-logo.png"
+    image:skillImage.mysql
   },
   {
     id:2,
-    image:"https://img.icons8.com/color/48/000000/mongodb.png"
+    image:skillImage.mongodb
   }
 ]
 
 export const webskills =[
   {
     id:1,
-    image:"https://img.icons8.com/color/48/000000/css3.png"
+    image:skillImage.css
   },
   {
     id:2,
-    image:"https://img.icons8.com/color/48/000000/html-5--v1.png"
+    image:skillImage.html
   },
   {
     id:3,
-    image:"https://img.icons8.com/color/48/000000/javascript--v1.png"
+    image:skillImage.javascript
   },
   {
     id:4,
-    image:"https://img.icons8.com/ultraviolet/48/000000/react--v1.png"
+    image:skillImage.react
   }
 ]
 
 export const ide =[
   {
     id:1,
-    image:"https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+    image:skillImage.vscode
   },
   {
     id:2,
-    image:"https://img.icons8.com/office/40/null/java-eclipse.png"
+    image:skillImage.eclipse
   }
 ]
 
 export const framework =[
   {
     id:1,
-    image:"https://img.icons8.com/color/48/000000/nodejs.png"
+    image:skillImage.node
   },
   {
     id:2,
-    image:"https://img.icons8.com/color/48/000000/bootstrap.png"
+    image:skillImage.bootstrap
   },
   {
     id:3,
-    image:"https://img.icons8.com/nolan/64/react-native.png"
+    image:skillImage.reactnative
 
   },
   {
     id:4,
-    image:"https://img.icons8.com/nolan/64/flask.png"
+    image:skillImage.flask
   },
   {
     id:5,
-    image:"https://img.icons8.com/color/48/ffffff/django.png"
+    image:skillImage.bootstrap
   }
 ]
 
 export const other=[
   {
     id:1,
-    image:"https://img.icons8.com/color/48/000000/git.png"
+    image:skillImage.git
   },
   {
     id:2,
-  image:"https://img.icons8.com/color/48/000000/android-os.png"
+  image:skillImage.android
   },
   {
     id:3,
-    image:"https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png"
+    image: skillImage.postman
   }
 ]
 
 export const aboutdetails ={
   name:"Subramanya KS",
   image:"./images/subbu.png",
-  resumeLink:"https://drive.google.com/file/d/15V_I5zW-iQ8eYWvtQEmi6sZ-6DgWGvya/view",
+  resumeLink:links.resumeLink,
   tagline:"Learner|Programmer|Developer",
   description:" A frontend developer based in Karnataka,India. I am currently working in Infosys. I passionate about upgrading my skills and also likes to get my hand dirty on new technology. I start my day with motive on being better then previous day. Learn new skills that helped me to do better work.I'm constantly open to new ideas and always look to reach out to others, share and discuss ideas with them, thereby learn and also help others grow too"
 }
@@ -242,49 +243,49 @@ export const experiencedata=[
 export const socialIcon=[
   {
     id:1,
-    href:"https://www.linkedin.com/in/subramanyakshebbar/",
+    href:links.linkedinLink,
     className:"linkedin social",
     icon:faLinkedin,
     iconClass:"fa-bounce"
   },
   {
     id:2,
-    href:"https://github.com/SubramanyaKS",
+    href:links.githubLink,
     className:"github social",
     icon:faGithub,
     iconClass:"fa-flip"
   },
   {
     id:3,
-    href:"https://www.youtube.com/@subramanyakshebbar/",
+    href:links.youtubeLink,
     className:"youtube social",
     icon:faYoutube,
     iconClass:"fa-beat"
   },
   {
     id:4,
-    href:"https://twitter.com/subbukshebbar",
+    href:links.twitterLink,
     className:"twitter social",
     icon:faTwitter,
     iconClass:"fa-shake"
   },
   {
     id:5,
-    href:"https://www.facebook.com/profile.php?id=100070944345090",
+    href:links.facebookLink,
     className:"facebook social",
     icon:faFacebook,
     iconClass:"fa-fade"
   },
   {
     id:6,
-    href:"https://www.instagram.com/subramanyakshebbar/",
+    href:links.instagramLink,
     className:"instagram social",
     icon:faInstagram,
     iconClass:"fa-spin"
   },
   {
     id:7,
-    href:"mailto:subramanyaks2205@gmail.com",
+    href:links.gmailLink,
     className:"gmail social",
     icon:faGoogle,
     iconClass:"fa-beat-fade"
