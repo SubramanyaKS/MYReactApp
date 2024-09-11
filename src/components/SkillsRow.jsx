@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const SkillsRow = ({ skill }) => {
   return (
-    <Row className="card-example d-flex flex-row flex-nowrap overflow-auto">
+    <Row className="card-example d-flex flex-row flex-wrap overflow-auto">
       {skill.map((item) => (
         <SkillsCard key={item.id} data={item} />
       ))}
