@@ -3,12 +3,10 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Spinner1 from "./components/Loader";
 import Routing from "./routes/Routing";
-function App() {
-  const [spinner, setSpinner] = useState(true);
+import { useSpinner } from "./hook/useSpinner";
 
-  useEffect(() => {
-    setTimeout(() => setSpinner(false), 1000);
-  }, []);
+function App() {
+  const {spinner} = useSpinner();
 
   return (
     <>
