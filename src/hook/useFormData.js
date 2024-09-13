@@ -6,6 +6,7 @@ export const useFormData = ()=>{
 
     const sendEmail = (e) => {
         e.preventDefault();
+       
         const templateParams = {
             name: formData.name,
             body: formData.message,
@@ -13,7 +14,7 @@ export const useFormData = ()=>{
             email: formData.email,
         }
         // var data = details;
-        emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, templateParams, process.env.REACT_APP_PUBLIC_KEY)
+        emailjs.send(import.meta.env.VITE_APP_SERVICE_ID, import.meta.env.VITE_APP_TEMPLATE_ID, templateParams, import.meta.env.VITE_APP_PUBLIC_KEY)
             .then((result) => {
                 // console.log("Result",result.text);
                 alert("Thank You")
