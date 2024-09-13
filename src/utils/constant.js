@@ -14,6 +14,7 @@ export const skillImage={
     python:"https://img.icons8.com/color/48/000000/python--v1.png",
     mysql:"https://img.icons8.com/color/60/000000/mysql-logo.png",
     mongodb:"https://img.icons8.com/color/48/000000/mongodb.png",
+    postgres:"https://img.icons8.com/color/48/postgreesql.png",
     css:"https://img.icons8.com/color/48/000000/css3.png",
     html:"https://img.icons8.com/color/48/000000/html-5--v1.png",
     javascript:"https://img.icons8.com/color/48/000000/javascript--v1.png",
