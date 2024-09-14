@@ -5,14 +5,16 @@ import Center from './common/Center';
 
 const ContactIcons = () => {
   return (
-    <Center>
+    <div className="d-flex flex-wrap justify-content-center">
       {
         socialIcon.map((data)=>(
-          <IconContainer  href={data.href}
-          className={data.className} icon={data.icon} iconClass={data.iconClass}/>
+          <div key={data.id}>
+            <IconContainer href={data.href}
+              className={data.className} icon={data.icon} iconClass={data.iconClass} />
+          </div>
         ))
       }
-    </Center>
+    </div>
   )
 }
 
