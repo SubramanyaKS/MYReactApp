@@ -4,10 +4,12 @@ import { socialIcon } from '../data/data';
 
 function SocialMediaIcons() {
   return (
-    <div  className="d-flex">
+    <div className="d-flex flex-wrap">
       {socialIcon.map((data)=>(
-        <IconContainer containerClass={'icon-container'} href={data.href}
-        className={data.className} icon={data.icon}/>
+        <div key={data.id}>
+          <IconContainer containerClass={'icon-container'} href={data.href}
+            className={data.className} icon={data.icon} label={data.label} />
+          </div>
       ))}
            
       </div>
