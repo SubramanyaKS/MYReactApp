@@ -5,6 +5,8 @@ import ProjectCard from "../components/ProjectCard.jsx";
 import { Col, Container, Row } from "react-bootstrap";
 import Heading from "../components/common/Heading.jsx";
 import { motion } from "framer-motion";
+import PillButton from "../components/common/PillButton.jsx";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
@@ -25,10 +27,11 @@ const Projects = () => {
             </Col>
           ))}
         </Row>
-        <button onClick={()=>window.open(
-      "https://github.com/SubramanyaKS?tab=repositories",
-      "_blank"
-    )} className="resume rounded-pill">View More</button>
+        <PillButton OnClick={() => window.open(
+          "https://github.com/SubramanyaKS?tab=repositories",
+          "_blank"
+        )} title="View More " icon={faArrowRight}/>
+        
       </Container>
       {/* <Background id="tsparticles" /> */}
     </section>
