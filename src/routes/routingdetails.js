@@ -6,7 +6,7 @@ import Header from "../pages/Header";
 import Education from "../pages/Education";
 import Skills from "../pages/Skills";
 
-export const routing = [
+const routingdetails = [
     {
         id: 1,
         path: "/",
@@ -41,3 +41,6 @@ export const routing = [
         element: Contact ,
     }
 ]
+
+
+export default routingdetails;
