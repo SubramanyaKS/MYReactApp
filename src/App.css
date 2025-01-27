@@ -685,3 +685,45 @@ a.hackerrank {
 .box{
   box-shadow: 5px 5px 15px var(--color2) !important;
 }
+
+/* chatbot */
+
+.chatbot-button{
+  width: 60px;
+  height: 60px;
+  cursor: 'pointer';
+  z-index: 999;
+  right: 30px;
+  bottom: 20px;
+  background-color: var(--color4);
+
+}
+.chatbot-header{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: var(--color4);
+}
+.chatbot-bot{
+  background-color: #ccc;
+  color: var(--primary);
+  max-width: 75%;
+
+}
+.chatbot-user{
+  background-color: var(--color1);
+  color:var(--secondary);
+  max-width: 75%;
+}
+.chatbot-card{
+  bottom: 100px;
+  right: 20px;
+  width: 300px;
+  min-height:100px;
+  border-radius: 15px;
+  z-index: 999;
+}
+.chatbot-cardbody{
+  height: 400px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
