@@ -3,6 +3,7 @@ import Navbar from "../components/NavBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "../components/Footer";
 import routingdetails  from './routingdetails';
+import ChatBot from '../components/ChatBot';
 
 const Routing = () => {
   return (
@@ -13,6 +14,7 @@ const Routing = () => {
         <Route key={data.id} exact path={data.path} Component={data.element} />
         ))}
        </Routes>
+       <ChatBot/>
        <Footer />
      </Router>
   )
