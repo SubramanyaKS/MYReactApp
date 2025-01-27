@@ -13,7 +13,7 @@ const ChatBotInput = ({OnChange,OnKeyPress,OnClick,value}) => {
             onChange={OnChange}
             onKeyPress={OnKeyPress}
           />
-          <button type="button" className="btn-success chatbot-send rounded border-0" onClick={OnClick} ><FontAwesomeIcon icon={faPaperPlane}/> </button>
+          <button type="button" className="btn-success chatbot-send border-0" onClick={OnClick} ><FontAwesomeIcon icon={faPaperPlane}/> </button>
         </div>
   )
 }

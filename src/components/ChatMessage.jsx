@@ -11,7 +11,7 @@ const ChatMessage = ({ sender, text }) => {
         <Image src={chatbotImages.user} alt="user" height={30} width={30} />
       )}
       <div
-        className={`p-3 rounded ${sender === "user"
+        className={`p-3 m-2 rounded ${sender === "user"
             ? "chatbot-user"
             : "chatbot-bot"
           }`}

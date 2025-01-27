@@ -16,7 +16,7 @@ const ChatBot = () => {
         <div
           className="p-0 mb-5 shadow-lg position-fixed chatbot-card"
         >
-          <ChatBotHeader title={"ChatBot"} image={chatbotImages.chatbot} />
+          <ChatBotHeader title={"SuBot"} image={chatbotImages.chatbot} />
           <div
             className="card-body chatbot-cardbody"
           >

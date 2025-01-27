@@ -16,8 +16,9 @@ Hello folks.This is my new portfolio using React JS UI development library. Reac
 ### Features.
 
 * Responsive UI
-* Animation using tsParticle.
 * Smooth Navigation
+* Added small chatbot (rule based).
+* Smooth Animation
 
 
 ### Technology used.
@@ -54,13 +55,13 @@ npm install
 3.  Run application using command
 
 ```
-npm start
+npm run dev
 ```
 
 5. Automatically open the website in localhost
 
 ```
-http://localhost/3000
+http://localhost/5173
 ```
 ---
 
