@@ -15,7 +15,7 @@ const Projects = () => {
       <Container fluid>
         <Row className="row-cols-1 row-cols-md-3 row-eq-height">
           {projectsdata.map((project,i) => (
-            <Col className="mb-4  d-flex align-items-center justify-content-center">
+            <Col key={i} className="mb-4  d-flex align-items-center justify-content-center">
               <motion.div
                 key={project.id}
                 initial={{ opacity: 0, translateX: -50 , translateY:-50}}

@@ -11,10 +11,10 @@ const Contact = () => {
       <Heading title="Contact" />
       <Container fluid>
         <Container>
-          <h6>
+          <p>
             If you have any question or do you want to contact me, please free
             to email me.
-          </h6>
+          </p>
           <ContactForm />
         </Container>
 

@@ -11,7 +11,7 @@ const Education1 = () => {
       <Container>
         <div className="timeline">
           {educationdata.map((data, i) => (
-            <div
+            <div key={i}
               className={`container-e ${
                 i % 2 === 0 ? "left-container" : "right-container"
               }`}

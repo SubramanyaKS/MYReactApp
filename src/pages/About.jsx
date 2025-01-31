@@ -28,8 +28,8 @@ const About = () => {
                 <span style={{ color: "#00ff00" }} className="font-weight-bold">
                   <b>{aboutdetails.name}, </b>
                 </span>
-                {description.map((ch) => (
-                  <motion.span key={ch} transition={{ duration: 0.5 }} variants={wordVarients}>
+                {description.map((ch,i) => (
+                  <motion.span key={i} transition={{ duration: 0.5 }} variants={wordVarients}>
                     {ch}
                   </motion.span>
 

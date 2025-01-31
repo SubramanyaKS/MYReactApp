@@ -10,8 +10,8 @@ const Experience = () => {
       <Heading title="Experience" />
       <Container fluid className="py-3">
         <Row className="row-cols-1 row-cols-md-2 row-eq-height">
-          {experiencedata.map((project) => (
-            <Col className=" mb-4  d-flex align-items-stretch">
+          {experiencedata.map((project,i) => (
+            <Col key={i} className=" mb-4  d-flex align-items-stretch">
               <div key={project.id}>
                 <ProjectCard data={project} />
               </div>
