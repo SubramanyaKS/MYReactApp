@@ -1,8 +1,7 @@
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import { useFormData } from '../hook/useFormData';
+import { Send } from 'lucide-react';
 
 function ContactForm() {
   const { formData, handleChange, sendEmail } = useFormData();
@@ -24,7 +23,7 @@ function ContactForm() {
         <Form.Control name="message" value={formData.message} as="textarea" onChange={(e)=>handleChange("message",e.target.value)} className="text-white bg-dark" rows={5} placeholder='Your message'/>
       </Form.Group>
       <button style={{width:"95%"}}  className="m-3 pt-2 pb-2 rounded mr-3 send-button" type="submit">
-        Send Message <FontAwesomeIcon icon={faPaperPlane}/> 
+        Send Message <Send/> 
       </button>
     </Form>
   )

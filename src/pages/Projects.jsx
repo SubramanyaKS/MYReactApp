@@ -6,7 +6,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Heading from "../components/common/Heading.jsx";
 import { motion } from "framer-motion";
 import PillButton from "../components/common/PillButton.jsx";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { ArrowBigRight } from "lucide-react";
 
 const Projects = () => {
   return (
@@ -30,7 +30,7 @@ const Projects = () => {
         <PillButton OnClick={() => window.open(
           "https://github.com/SubramanyaKS?tab=repositories",
           "_blank"
-        )} title="View More " icon={faArrowRight}/>
+        )} title="View More " Icon={ArrowBigRight}/>
         
       </Container>
       {/* <Background id="tsparticles" /> */}

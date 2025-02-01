@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -7,10 +6,9 @@ const Footer = () => {
       <p  style={{fontFamily:"cursive"}} className="text-center">
         <b>
           &copy;2024. Designed with{" "}
-          <FontAwesomeIcon
-            icon={faHeart}
-            style={{ color: "red", fontSize: "20px" }}
-            className="fa-beat"
+          <Heart
+            fill="red"
+            color="red"
           />{" "}
           by &lt;Subramanya K S./&gt;
         </b>

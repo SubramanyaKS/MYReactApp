@@ -1,15 +1,11 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faDownload, faFolderOpen, faStar as Star } from "@fortawesome/free-solid-svg-icons";
-import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import Card from "react-bootstrap/Card";
-import { faFolder, faStar } from '@fortawesome/free-regular-svg-icons';
 import Reveal from './common/Reveal';
 import SkillPill from './common/SkillPill';
 import NeoButton from './common/NeoButton';
 import { useHover } from '../hook/useHover';
+import { Download, ExternalLink, Folder, FolderOpen, Github, Star } from 'lucide-react';
 
 const ProjectCard = ({ data }) => {
   const { handleMouseEnter, handleMouseLeave, isHovered } = useHover();
@@ -20,9 +16,9 @@ const ProjectCard = ({ data }) => {
       <Card.Img variant="top" src={data.image} />
       <Card.Body>
         <div className='d-flex justify-content-between'>
-          {isHovered ? <FontAwesomeIcon icon={faFolderOpen} color='#00ddff' size="lg" /> : <FontAwesomeIcon icon={faFolder} color="#00ddff" size="lg" />}
+          {isHovered ? <FolderOpen color='#00ddff'/> : <Folder color="#00ddff"/>}
 
-          {isHovered ? <FontAwesomeIcon icon={Star} color='yellow' size="lg" /> : <FontAwesomeIcon icon={faStar} color='yellow' size="lg" />}
+          {isHovered ? <Star color='yellow' fill="yellow" /> : <Star color='yellow' />}
         </div>
         <Reveal>
           <Card.Title>{data.title}</Card.Title>
@@ -41,12 +37,12 @@ const ProjectCard = ({ data }) => {
             ))}
           </div> : null}
           <div className="social-buttons mt-5">
-            <NeoButton link={data.githubLink} icon={faGithub} />
+            <NeoButton link={data.githubLink} Icon={Github}/>
             {data.websiteLink != null ?
-              <NeoButton link={data.websiteLink} icon={faExternalLink} />
+              <NeoButton link={data.websiteLink} Icon={ExternalLink}/>
               : null}
             {data.downloadLink != null ?
-              <NeoButton link={data.downloadLink} icon={faDownload} />
+              <NeoButton link={data.downloadLink} Icon={Download} />
               : null}
           </div></> : null}
       </Card.Body>

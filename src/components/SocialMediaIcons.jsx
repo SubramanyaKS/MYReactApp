@@ -8,7 +8,7 @@ function SocialMediaIcons() {
       {socialIcon.map((data)=>(
         <div key={data.id}>
           <IconContainer containerClass={'icon-container'} href={data.href}
-            className={data.className} icon={data.icon} label={data.label} />
+            className={data.className} Icon={data.icon} label={data.label} />
           </div>
       ))}
            

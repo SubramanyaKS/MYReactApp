@@ -7,7 +7,7 @@ import splitWords from "../utils/splitWords";
 import { motion } from 'framer-motion';
 import { resume, wordVarients } from "../utils/utilFunctions";
 import PillButton from "../components/common/PillButton";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { Download } from "lucide-react";
 
 
 const About = () => {
@@ -35,7 +35,7 @@ const About = () => {
 
                 ))}
               </motion.p>
-              <PillButton OnClick={() => resume(aboutdetails.resumeLink)} title="Download Resume" icon={faDownload} />
+              <PillButton OnClick={() => resume(aboutdetails.resumeLink)} title="Download Resume "  Icon={Download}/>
             </Col>
           </Row>
         </Container>
