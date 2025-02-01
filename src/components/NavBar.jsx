@@ -2,11 +2,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
+import NavText from "./NavText";
 
 const NavBar = () => {
   return (
     <Navbar
-      style={{ color: "black" }}
+      // style={{ color: "black" }}
       collapseOnSelect
       expand="lg"
       bg="dark"
@@ -26,25 +27,25 @@ const NavBar = () => {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Link className="navlink" to="/">
-              <h2>&lt; Home /&gt;</h2>
+            <NavText title='Home'/>
             </Link>
             <Link className="navlink" to="/about">
-              <h2>&lt; About /&gt;</h2>
+              <NavText title='About'/>
             </Link>
             <Link className="navlink" to="/education">
-              <h2>&lt; Education /&gt;</h2>
+            <NavText title='Education'/>
             </Link>
             <Link className="navlink" to="/experience">
-              <h2>&lt; Experience /&gt;</h2>
+            <NavText title='Experience'/>
             </Link>
             <Link className="navlink" to="/project">
-              <h2>&lt; Project /&gt;</h2>
+            <NavText title='Projects'/>
             </Link>
             <Link className="navlink" to="/skills">
-              <h2>&lt; Skills /&gt;</h2>
+            <NavText title='Skills'/>
             </Link>
             <Link className="navlink" to="/contact">
-              <h2>&lt; Contact /&gt;</h2>
+            <NavText title='Contact'/>
             </Link>
           </Nav>
         </Navbar.Collapse>

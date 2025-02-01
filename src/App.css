@@ -36,6 +36,9 @@ body {
   margin-left: 2px;
   padding: 5px;
 }
+.navlink:hover h2{
+  color:var(--color2) !important;
+}
 nav {
   position: fixed;
   top: 0;

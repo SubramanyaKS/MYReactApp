@@ -11,7 +11,7 @@ import { ArrowBigRight } from "lucide-react";
 const Projects = () => {
   return (
     <section className="project py-5" id="project">
-      <Heading title="My Projects" />
+      <Heading title="Projects" />
       <Container fluid>
         <Row className="row-cols-1 row-cols-md-3 row-eq-height">
           {projectsdata.map((project,i) => (
