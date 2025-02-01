@@ -1,13 +1,5 @@
-import {
-  faGithub,
-  faYoutube,
-  faTwitter,
-  faFacebook,
-  faLinkedin,
-  faGoogle,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
 import { links, skillImage } from "../utils/constant";
+import { Facebook, Github, Instagram, Linkedin, Mail, X, Youtube } from "lucide-react";
 
 export const projectsdata = [
   {
@@ -249,7 +241,7 @@ export const socialIcon = [
     id: 1,
     href: links.linkedinLink,
     className: "linkedin social",
-    icon: faLinkedin,
+    icon: Linkedin,
     iconClass: "fa-bounce",
     label: "linkedin",
   },
@@ -257,7 +249,7 @@ export const socialIcon = [
     id: 2,
     href: links.githubLink,
     className: "github social",
-    icon: faGithub,
+    icon: Github,
     iconClass: "fa-flip",
     label:"github",
   },
@@ -265,7 +257,7 @@ export const socialIcon = [
     id: 3,
     href: links.youtubeLink,
     className: "youtube social",
-    icon: faYoutube,
+    icon: Youtube,
     iconClass: "fa-beat",
     label:"youtube",
   },
@@ -273,7 +265,7 @@ export const socialIcon = [
     id: 4,
     href: links.twitterLink,
     className: "twitter social",
-    icon: faTwitter,
+    icon: X,
     iconClass: "fa-shake",
     label:"twitter",
   },
@@ -281,7 +273,7 @@ export const socialIcon = [
     id: 5,
     href: links.facebookLink,
     className: "facebook social",
-    icon: faFacebook,
+    icon: Facebook,
     iconClass: "fa-fade",
     label:"facebook",
   },
@@ -289,7 +281,7 @@ export const socialIcon = [
     id: 6,
     href: links.instagramLink,
     className: "instagram social",
-    icon: faInstagram,
+    icon: Instagram,
     iconClass: "fa-spin",
     label:"instagram",
   },
@@ -297,7 +289,7 @@ export const socialIcon = [
     id: 7,
     href: links.gmailLink,
     className: "gmail social",
-    icon: faGoogle,
+    icon: Mail,
     iconClass: "fa-beat-fade",
     label:"gmail",
   }

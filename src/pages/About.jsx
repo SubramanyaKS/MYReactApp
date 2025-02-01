@@ -7,7 +7,7 @@ import splitWords from "../utils/splitWords";
 import { motion } from 'framer-motion';
 import { resume, wordVarients } from "../utils/utilFunctions";
 import PillButton from "../components/common/PillButton";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { Download } from "lucide-react";
 
 
 const About = () => {
@@ -28,14 +28,14 @@ const About = () => {
                 <span style={{ color: "#00ff00" }} className="font-weight-bold">
                   <b>{aboutdetails.name}, </b>
                 </span>
-                {description.map((ch) => (
-                  <motion.span key={ch} transition={{ duration: 0.5 }} variants={wordVarients}>
+                {description.map((ch,i) => (
+                  <motion.span key={i} transition={{ duration: 0.5 }} variants={wordVarients}>
                     {ch}
                   </motion.span>
 
                 ))}
               </motion.p>
-              <PillButton OnClick={() => resume(aboutdetails.resumeLink)} title="Download Resume" icon={faDownload} />
+              <PillButton OnClick={() => resume(aboutdetails.resumeLink)} title="Download Resume "  Icon={Download}/>
             </Col>
           </Row>
         </Container>

@@ -1,6 +1,6 @@
-import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const IconContainer = ({containerClass,href,icon,className,iconClass,label}) => {
+import React from 'react';
+
+const IconContainer = ({containerClass,href,Icon,className,label}) => {
   return (
     <div  className={`${containerClass} pt-2 pb-2 shad rounded-circle`}>
         <a
@@ -9,7 +9,7 @@ const IconContainer = ({containerClass,href,icon,className,iconClass,label}) => 
             target='_blank'
           className={className} rel="noreferrer"
         >
-          <FontAwesomeIcon icon={icon} className={iconClass} size="2x" />
+          <Icon/>
         </a>
     </div>
   )

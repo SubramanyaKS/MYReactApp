@@ -1,6 +1,5 @@
 import React from 'react';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Send } from 'lucide-react';
 
 const ChatBotInput = ({OnChange,OnKeyPress,OnClick,value}) => {
   return (
@@ -13,7 +12,7 @@ const ChatBotInput = ({OnChange,OnKeyPress,OnClick,value}) => {
             onChange={OnChange}
             onKeyPress={OnKeyPress}
           />
-          <button type="button" className="btn-success chatbot-send border-0" onClick={OnClick} ><FontAwesomeIcon icon={faPaperPlane}/> </button>
+          <button type="button" className="btn-success chatbot-send border-0" onClick={OnClick} ><Send/> </button>
         </div>
   )
 }

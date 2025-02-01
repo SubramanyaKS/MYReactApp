@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
-const PillButton = ({OnClick,title,icon})=>{
+const PillButton = ({OnClick,title,Icon})=>{
     return (
-        <button onClick={OnClick} className="resume rounded-pill">{title}<FontAwesomeIcon icon={icon} /> </button>
+        <button onClick={OnClick} className="resume rounded-pill">{title}<Icon/> </button>
 
     )
 

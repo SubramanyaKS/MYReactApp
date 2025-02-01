@@ -1,15 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+import React from 'react';
 
-const NeoButton = ({link,icon}) => {
+const NeoButton = ({link,Icon}) => {
   return (
       <a href={link}>
           {" "}
           <button className="neo-button">
-              <FontAwesomeIcon
-                  icon={icon}
-                  style={{ fontSize: "24px" }}
-              />{" "}
+            <Icon/>
           </button>
       </a>
   )

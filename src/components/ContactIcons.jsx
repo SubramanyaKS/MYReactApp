@@ -1,7 +1,6 @@
 import React from 'react'
 import IconContainer from "../components/IconContainer";
 import { socialIcon } from '../data/data';
-import Center from './common/Center';
 
 const ContactIcons = () => {
   return (
@@ -10,7 +9,7 @@ const ContactIcons = () => {
         socialIcon.map((data)=>(
           <div key={data.id}>
             <IconContainer href={data.href}
-              className={data.className} icon={data.icon} iconClass={data.iconClass} />
+              className={data.className} Icon={data.icon} iconClass={data.iconClass} />
           </div>
         ))
       }
